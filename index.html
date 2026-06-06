@@ -1,0 +1,4048 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vogue Makeovers Agra | Best Bridal Makeup Artist in Agra</title>
+<meta name="description" content="Vogue Makeovers is Agra's premier bridal makeup studio. HD bridal makeup, airbrush makeovers, party glam, pre-bridal, and more. Book your wedding day look near the Taj Mahal.">
+<meta name="keywords" content="bridal makeup artist Agra, best makeup artist in Agra, wedding makeup Agra, HD makeup Agra, airbrush makeup Agra, Vogue Makeovers, bridal makeover Taj Mahal Agra, party makeup Agra">
+<meta property="og:title" content="Vogue Makeovers Agra | Premium Bridal Makeup Studio">
+<meta property="og:description" content="Agra's most premium bridal makeup studio. Soft glam to full bridal transformation â€” crafted for brides who deserve to be remembered.">
+<meta property="og:type" content="website">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Agra">
+<link rel="canonical" href="https://vogue-makeovers.in/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --gold: #C9A96E;
+  --gold-light: #E8D5B0;
+  --gold-dark: #8A6B3A;
+  --cream: #FAF6F0;
+  --dark: #1A1410;
+  --dark-2: #2C2218;
+  --dark-3: #3E3228;
+  --mid: #6B5B48;
+  --light-text: #A08C76;
+  --white: #FFFFFF;
+  --rose: #C4857A;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Jost', sans-serif;
+  --font-accent: 'Playfair Display', serif;
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  --fd: 'Cormorant Garamond', Georgia, serif;
+  --fb: 'Jost', sans-serif;}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--dark);
+  color: var(--cream);
+  overflow-x: hidden;
+  cursor: default;
+}
+
+/* â”€â”€ SCROLLBAR â”€â”€ */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--dark); }
+::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 2px; }
+
+/* â”€â”€ NAV â”€â”€ */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  padding: 1.25rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background var(--transition), padding var(--transition);
+}
+.nav.scrolled {
+  background: rgba(26, 20, 16, 0.97);
+  padding: 0.875rem 3rem;
+  border-bottom: 0.5px solid rgba(201, 169, 110, 0.2);
+}
+.nav-logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-logo span {
+  display: block;
+  font-size: 0.55rem;
+  letter-spacing: 0.35em;
+  color: var(--light-text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: -2px;
+}
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.25s;
+  position: relative;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; left: 0;
+  width: 0; height: 0.5px;
+  background: var(--gold);
+  transition: width 0.3s;
+}
+.nav-links a:hover { color: var(--gold); }
+.nav-links a:hover::after { width: 100%; }
+.nav-book {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dark);
+  background: var(--gold);
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  transition: background 0.25s, transform 0.2s;
+}
+.nav-book:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+/* â”€â”€ PAGES â”€â”€ */
+.page { display: none; min-height: 100vh; }
+.page.active { display: block; }
+
+/* â”€â”€ HOME PAGE â”€â”€ */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--dark);
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 80% at 70% 50%, rgba(201, 169, 110, 0.06) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 20% 80%, rgba(196, 133, 122, 0.05) 0%, transparent 60%),
+    linear-gradient(180deg, var(--dark) 0%, var(--dark-2) 50%, var(--dark) 100%);
+}
+.hero-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 60px,
+      rgba(201,169,110,0.02) 60px,
+      rgba(201,169,110,0.02) 61px
+    );
+}
+.hero-ornament {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px; height: 700px;
+  border-radius: 50%;
+  border: 0.5px solid rgba(201,169,110,0.08);
+  animation: spin 60s linear infinite;
+}
+.hero-ornament::before {
+  content: '';
+  position: absolute;
+  inset: 40px;
+  border-radius: 50%;
+  border: 0.5px solid rgba(201,169,110,0.06);
+}
+@keyframes spin { to { transform: translate(-50%,-50%) rotate(360deg); } }
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+  width: min(42%, 660px);
+  max-width: 620px;
+  padding: 8rem 3rem 4rem 0;
+  margin-left: 3rem;
+}
+.hero-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.3s forwards;
+  text-shadow: 0 14px 32px rgba(0,0,0,.22);
+}
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 300;
+  line-height: 1.05;
+  color: var(--cream);
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.5s forwards;
+  text-shadow: 0 18px 50px rgba(0,0,0,.28);
+}
+.hero-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+.hero-subtitle {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  margin-bottom: 3rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.7s forwards;
+  text-shadow: 0 12px 30px rgba(0,0,0,.18);
+}
+.hero-desc {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--gold-light);
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 0 3.5rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.9s forwards;
+  text-shadow: 0 12px 30px rgba(0,0,0,.18);
+}
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0;
+  animation: fadeUp 0.8s 1.1s forwards;
+}
+.btn-primary {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--dark);
+  background: var(--gold);
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s;
+  border: 1px solid var(--gold);
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--gold);
+  transform: translateY(-2px);
+}
+.btn-secondary {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: transparent;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid rgba(201,169,110,0.4);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.hero-stats {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 1.3s forwards;
+}
+.hero-stat {
+  text-align: center;
+}
+.hero-stat-num {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--gold);
+  line-height: 1;
+  display: block;
+}
+.hero-stat-label {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  margin-top: 0.4rem;
+  display: block;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* â”€â”€ SECTION COMMONS â”€â”€ */
+.section {
+  padding: 7rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-full { padding: 7rem 0; }
+.section-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+  display: block;
+}
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--cream);
+}
+.section-title em { font-style: italic; color: var(--gold); }
+.section-line {
+  width: 60px;
+  height: 0.5px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  margin: 1.5rem 0 2rem;
+}
+.section-body {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: var(--light-text);
+  max-width: 520px;
+}
+
+/* â”€â”€ SERVICES SECTION (HOME) â”€â”€ */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: rgba(201,169,110,0.12);
+  margin-top: 4rem;
+}
+.service-card {
+  background: var(--dark);
+  padding: 3rem 2.5rem;
+  transition: background var(--transition);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.service-card::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0; height: 1px;
+  background: var(--gold);
+  transition: width 0.5s;
+}
+.service-card:hover { background: var(--dark-2); }
+.service-card:hover::before { width: 100%; }
+.service-num {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 300;
+  color: rgba(201,169,110,0.15);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+.service-name {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--cream);
+  margin-bottom: 0.75rem;
+}
+.service-desc {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  line-height: 1.8;
+  color: var(--light-text);
+}
+.service-price {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-top: 1.5rem;
+  display: block;
+}
+
+/* â”€â”€ ABOUT STRIP (HOME) â”€â”€ */
+.about-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  padding: 7rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about-strip-visual {
+  position: relative;
+  aspect-ratio: 3/4;
+  background: var(--dark-2);
+  border: 0.5px solid rgba(201,169,110,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.about-strip-visual::after {
+  content: '';
+  position: absolute;
+  inset: 16px;
+  border: 0.5px solid rgba(201,169,110,0.1);
+  pointer-events: none;
+}
+.visual-placeholder {
+  text-align: center;
+}
+.visual-placeholder-icon {
+  font-size: 4rem;
+  color: rgba(201,169,110,0.15);
+  display: block;
+  margin-bottom: 1rem;
+}
+.visual-placeholder p {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--dark-3);
+  text-transform: uppercase;
+}
+.about-tag {
+  position: absolute;
+  bottom: 2rem; right: -1.5rem;
+  background: var(--gold);
+  color: var(--dark);
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+}
+
+/* â”€â”€ TESTIMONIALS â”€â”€ */
+.testimonials-bg {
+  background: var(--dark-2);
+  border-top: 0.5px solid rgba(201,169,110,0.1);
+  border-bottom: 0.5px solid rgba(201,169,110,0.1);
+}
+.testimonials-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 3rem;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.testimonial-card {
+  padding: 2.5rem;
+  border: 0.5px solid rgba(201,169,110,0.15);
+  position: relative;
+}
+.testimonial-card::before {
+  content: '\201C';
+  font-family: var(--font-display);
+  font-size: 5rem;
+  color: rgba(201,169,110,0.12);
+  position: absolute;
+  top: 1rem; left: 1.5rem;
+  line-height: 1;
+}
+.testimonial-text {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--gold-light);
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-author {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--light-text);
+}
+.testimonial-stars {
+  color: var(--gold);
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+}
+
+/* â”€â”€ SERVICES PAGE â”€â”€ */
+.services-page-hero {
+  padding: 2rem 3rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.service-full-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(201,169,110,0.1);
+  max-width: 1200px;
+  margin: 0 auto 6rem;
+}
+.service-full-card {
+  background: var(--dark);
+  padding: 4rem 3rem;
+  transition: background 0.3s;
+}
+.service-full-card:hover { background: var(--dark-2); }
+.service-full-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--cream);
+  margin-bottom: 1.5rem;
+}
+.service-full-card p {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.9;
+  color: var(--light-text);
+  margin-bottom: 1.5rem;
+}
+.service-includes {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+.service-includes li {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--light-text);
+  padding: 0.4rem 0;
+  border-bottom: 0.5px solid rgba(201,169,110,0.08);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.service-includes li::before { content: 'â€”'; color: var(--gold); }
+.service-price-block {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+.price-from {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--light-text);
+}
+.price-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--gold);
+}
+
+/* â”€â”€ PORTFOLIO PAGE â”€â”€ */
+.portfolio-hero {
+  padding: 2rem 3rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio-filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.filter-btn {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  background: transparent;
+  border: 0.5px solid rgba(201,169,110,0.2);
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.filter-btn.active, .filter-btn:hover {
+  color: var(--dark);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem 6rem;
+}
+.portfolio-item {
+  aspect-ratio: 3/4;
+  background: var(--dark-2);
+  border: 0.5px solid rgba(201,169,110,0.1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.portfolio-item:hover { transform: scale(0.99); }
+.portfolio-item-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(26,20,16,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.portfolio-item:hover .portfolio-item-overlay { opacity: 1; }
+.portfolio-item-label {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--gold);
+}
+.portfolio-placeholder {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: rgba(201,169,110,0.2);
+  font-style: italic;
+  text-align: center;
+  padding: 1rem;
+}
+.portfolio-item.featured {
+  grid-row: span 2;
+  aspect-ratio: unset;
+}
+
+/* â”€â”€ BLOG PAGE â”€â”€ */
+.blog-hero {
+  padding: 2rem 3rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: rgba(201,169,110,0.08);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.blog-card {
+  background: var(--dark);
+  padding: 2.5rem 2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.blog-card:hover { background: var(--dark-2); }
+.blog-card-cat {
+  font-family: var(--font-body);
+  font-size: 0.58rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.blog-card-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--cream);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+.blog-card-excerpt {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  line-height: 1.8;
+  color: var(--light-text);
+  margin-bottom: 1.5rem;
+}
+.blog-card-meta {
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--dark-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-card-read {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: letter-spacing 0.2s;
+}
+.blog-card:hover .blog-card-read { letter-spacing: 0.3em; }
+
+/* â”€â”€ SINGLE BLOG â”€â”€ */
+.blog-post {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 3rem 6rem;
+}
+.blog-post-back {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.blog-post-back:hover { color: var(--gold); }
+.blog-post-cat {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  display: block;
+}
+.blog-post-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--cream);
+  margin-bottom: 2rem;
+}
+.blog-post-body {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.95;
+  color: var(--light-text);
+}
+.blog-post-body h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--cream);
+  margin: 3rem 0 1rem;
+}
+.blog-post-body h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--gold);
+  margin: 2rem 0 0.75rem;
+}
+.blog-post-body p { margin-bottom: 1.5rem; }
+.blog-post-body ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.blog-post-body ul li { margin-bottom: 0.5rem; }
+.blog-post-body strong { color: var(--cream); font-weight: 500; }
+.blog-cta-box {
+  border: 0.5px solid rgba(201,169,110,0.3);
+  padding: 2.5rem;
+  margin: 3rem 0;
+  text-align: center;
+  background: rgba(201,169,110,0.03);
+}
+.blog-cta-box h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.blog-cta-box p {
+  font-size: 0.85rem;
+  color: var(--light-text);
+  margin-bottom: 1.5rem;
+}
+
+/* â”€â”€ ABOUT PAGE â”€â”€ */
+.about-hero {
+  padding: 2rem 3rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: start;
+}
+.about-content h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  color: var(--cream);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+.about-content h1 em { color: var(--gold); font-style: italic; }
+.about-content p {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.95;
+  color: var(--light-text);
+  margin-bottom: 1.5rem;
+}
+.about-values {
+  padding: 6rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  background: rgba(201,169,110,0.08);
+  margin-top: 3rem;
+}
+.value-card {
+  background: var(--dark);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+.value-icon {
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  display: block;
+}
+.value-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--cream);
+  margin-bottom: 0.75rem;
+}
+.value-text {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  line-height: 1.8;
+  color: var(--light-text);
+}
+.team-section {
+  padding: 6rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.team-card {
+  text-align: center;
+}
+.team-avatar {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--dark-2);
+  border: 0.5px solid rgba(201,169,110,0.15);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-avatar-text {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: rgba(201,169,110,0.2);
+}
+.team-name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--cream);
+  margin-bottom: 0.4rem;
+}
+.team-role {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.team-bio {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  line-height: 1.8;
+  color: var(--light-text);
+}
+
+/* â”€â”€ CAREERS PAGE â”€â”€ */
+.careers-hero {
+  padding: 2rem 3rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.careers-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 300;
+  color: var(--cream);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+.careers-hero p {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.9;
+  color: var(--light-text);
+  max-width: 580px;
+  margin: 0 auto 3rem;
+}
+.openings-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 3rem 4rem;
+}
+.opening-card {
+  border: 0.5px solid rgba(201,169,110,0.15);
+  padding: 2.5rem 3rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s, background 0.3s;
+  cursor: pointer;
+}
+.opening-card:hover {
+  border-color: var(--gold);
+  background: rgba(201,169,110,0.03);
+}
+.opening-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+.opening-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--cream);
+}
+.opening-badge {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: rgba(201,169,110,0.1);
+  color: var(--gold);
+  border: 0.5px solid rgba(201,169,110,0.3);
+  padding: 0.4rem 1rem;
+  white-space: nowrap;
+}
+.opening-details {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.opening-detail {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--light-text);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.opening-dot { width: 4px; height: 4px; background: var(--gold); border-radius: 50%; }
+.opening-desc {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  line-height: 1.8;
+  color: var(--light-text);
+  margin-bottom: 1.5rem;
+}
+.apply-form-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 3rem 6rem;
+}
+.apply-form-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.apply-form-title em { color: var(--gold); font-style: italic; }
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.form-label {
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  background: transparent;
+  border: 0.5px solid rgba(201,169,110,0.2);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  padding: 0.9rem 1rem;
+  outline: none;
+  transition: border-color 0.25s;
+  appearance: none;
+}
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  border-color: var(--gold);
+}
+.form-textarea { resize: vertical; min-height: 120px; }
+.form-select option { background: var(--dark-2); color: var(--cream); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.form-submit {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--dark);
+  background: var(--gold);
+  border: none;
+  padding: 1.2rem;
+  cursor: pointer;
+  transition: background 0.25s, letter-spacing 0.2s;
+  margin-top: 1rem;
+}
+.form-submit:hover { background: var(--gold-light); letter-spacing: 0.35em; }
+.form-success {
+  text-align: center;
+  padding: 3rem;
+  border: 0.5px solid rgba(201,169,110,0.3);
+  background: rgba(201,169,110,0.03);
+  display: none;
+}
+.form-success h3 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.form-success p { font-size: 0.85rem; color: var(--light-text); }
+
+/* â”€â”€ CONTACT PAGE â”€â”€ */
+.contact-hero {
+  padding: 2rem 3rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: start;
+}
+.contact-info h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 2rem;
+}
+.contact-info h1 em { color: var(--gold); font-style: italic; }
+.contact-info p {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  line-height: 1.9;
+  color: var(--light-text);
+  margin-bottom: 3rem;
+}
+.contact-details { list-style: none; margin-bottom: 2rem; }
+.contact-details li {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  border-bottom: 0.5px solid rgba(201,169,110,0.1);
+}
+.contact-details .ci-label {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  min-width: 80px;
+  padding-top: 2px;
+}
+.contact-details .ci-value {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--light-text);
+  line-height: 1.7;
+}
+.contact-details a { color: var(--light-text); text-decoration: none; }
+.contact-details a:hover { color: var(--gold); }
+.contact-form h2 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 2rem;
+}
+.whatsapp-strip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(37, 211, 102, 0.05);
+  border: 0.5px solid rgba(37, 211, 102, 0.2);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  transition: background 0.25s;
+}
+.whatsapp-strip:hover { background: rgba(37, 211, 102, 0.08); }
+.wa-icon{width:34px;height:34px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;flex:0 0 34px;}.wa-icon svg{width:20px;height:20px;display:block;fill:currentColor;}
+.wa-text strong {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: #25D366;
+  display: block;
+  margin-bottom: 2px;
+}
+.wa-text span {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--light-text);
+}
+
+/* â”€â”€ FOOTER â”€â”€ */
+footer {
+  background: var(--dark-2);
+  border-top: 0.5px solid rgba(201,169,110,0.1);
+  padding: 5rem 3rem 2rem;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+.footer-brand p {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  line-height: 1.9;
+  color: var(--light-text);
+  margin-top: 1rem;
+  max-width: 280px;
+}
+.footer-col h4 {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+}
+.footer-col ul { list-style: none; }
+.footer-col ul li {
+  margin-bottom: 0.75rem;
+}
+.footer-col ul a {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--light-text);
+  text-decoration: none;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.footer-col ul a:hover { color: var(--gold); }
+.footer-bottom {
+  border-top: 0.5px solid rgba(201,169,110,0.1);
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom p {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--dark-3);
+}
+.footer-bottom p a { color: var(--gold-dark); text-decoration: none; }
+.social-links { display: flex; gap: 1.5rem; }
+.social-links a {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.social-links a:hover { color: var(--gold); }
+
+/* â”€â”€ GOLD DIVIDER â”€â”€ */
+.gold-divider {
+  width: 100%;
+  height: 0.5px;
+  background: linear-gradient(90deg, transparent, rgba(201,169,110,0.3), transparent);
+  margin: 0;
+}
+
+/* â”€â”€ MOBILE MENU â”€â”€ */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  flex-direction: column;
+  gap: 5px;
+}
+.menu-toggle span {
+  display: block;
+  width: 22px;
+  height: 1px;
+  background: var(--gold);
+  transition: all 0.3s;
+}
+
+/* â”€â”€ RESPONSIVE â”€â”€ */
+@media (max-width: 900px) {
+  .nav { padding: 1rem 1.5rem; }
+  .nav.scrolled { padding: 0.75rem 1.5rem; }
+  .nav-links { display: none; }
+  .nav-book { display: none; }
+  .menu-toggle { display: flex; }
+  .section { padding: 5rem 1.5rem; }
+  .services-grid { grid-template-columns: 1fr; }
+  .about-strip { grid-template-columns: 1fr; gap: 3rem; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .testimonials-inner { padding: 4rem 1.5rem; }
+  .service-full-grid { grid-template-columns: 1fr; }
+  .portfolio-grid { grid-template-columns: repeat(2, 1fr); padding: 0 1.5rem 4rem; }
+  .blog-grid { grid-template-columns: 1fr; }
+  .about-hero { grid-template-columns: 1fr; gap: 3rem; }
+  .about-values-grid { grid-template-columns: repeat(2, 1fr); }
+  .team-grid { grid-template-columns: 1fr; }
+  .contact-hero { grid-template-columns: 1fr; gap: 3rem; }
+  .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .form-row { grid-template-columns: 1fr; }
+  .hero-stats { gap: 2rem; }
+  .hero-stat-num { font-size: 2rem; }
+  .hero-title { font-size: 3rem; }
+  .hero-content { text-align: center; margin-left: 0; padding: 6rem 1.5rem 4rem; }
+  .hero-actions { justify-content: center; }
+  .hero { min-height: auto; align-items: flex-start; padding-top: 6rem; }
+  .hero-ornament { display: none; }
+  .hero-content { width: 100%; max-width: 760px; padding: 4rem 1.5rem 3rem; margin: 0 auto; }
+  .hero-title { font-size: clamp(2.4rem, 8vw, 3rem); }
+  .hero-subtitle, .hero-desc { text-align: center; margin-left: auto; margin-right: auto; }
+  .hero-actions { flex-direction: column; gap: 1rem; align-items: center; }
+  .hero-stats {
+    position: static;
+    transform: none;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  .hero-stat { width: 100%; }
+  .hero-desc { max-width: 100%; }
+  .services-page-hero, .portfolio-hero, .blog-hero, .careers-hero {
+    padding: 8rem 1.5rem 4rem;
+  }
+  .about-hero, .contact-hero { padding: 8rem 1.5rem 4rem; }
+  .openings-section { padding: 0 1.5rem 4rem; }
+  .apply-form-wrap { padding: 0 1.5rem 4rem; }
+  .blog-post { padding: 8rem 1.5rem 4rem; }
+  .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
+}
+
+/* â•â• DYNAMIC UPGRADES â•â• */
+/* Custom cursor */
+.cursor-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;position:fixed;top:0;left:0;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .1s;}
+.cursor-ring{width:30px;height:30px;border:1px solid rgba(201,169,110,.45);border-radius:50%;position:fixed;top:0;left:0;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .3s,height .3s,border-color .3s;}
+
+/* Scroll reveal */
+.reveal{opacity:0;transform:translateY(36px);transition:opacity .8s cubic-bezier(.25,.46,.45,.94),transform .8s cubic-bezier(.25,.46,.45,.94);}
+.reveal.in-view{opacity:1;transform:translateY(0);}
+.reveal-d1{transition-delay:.12s;} .reveal-d2{transition-delay:.24s;} .reveal-d3{transition-delay:.36s;}
+
+/* Hero banner â€” true full-screen image slot */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+#page-home .hero { justify-content: flex-start; }
+.hero-banner-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;}
+
+/* Banner overlay â€” adds cinematic depth */
+.hero-overlay{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(to bottom,rgba(19,15,11,.35) 0%,rgba(19,15,11,.15) 40%,rgba(19,15,11,.5) 80%,rgba(19,15,11,.7) 100%),
+    linear-gradient(to right,rgba(19,15,11,.18) 0%,transparent 65%);
+}
+/* Diagonal diagonal grid texture */
+.hero-grid-texture{
+  position:absolute;inset:0;pointer-events:none;
+  background-image:repeating-linear-gradient(45deg,transparent,transparent 60px,rgba(201,169,110,.018) 60px,rgba(201,169,110,.018) 61px),
+    repeating-linear-gradient(-45deg,transparent,transparent 60px,rgba(201,169,110,.018) 60px,rgba(201,169,110,.018) 61px);
+}
+/* Decorative corner brackets */
+.hero-corner{position:absolute;width:70px;height:70px;border-color:rgba(201,169,110,.28);border-style:solid;pointer-events:none;}
+.hero-corner.tl{top:5.5rem;left:3rem;border-width:1px 0 0 1px;}
+.hero-corner.tr{top:5.5rem;right:3rem;border-width:1px 1px 0 0;}
+.hero-corner.bl{bottom:1.5rem;left:3rem;border-width:0 0 1px 1px;}
+.hero-corner.br{bottom:1.5rem;right:3rem;border-width:0 1px 1px 0;}
+
+/* Scroll marquee ticker */
+.hero-ticker-wrap{position:absolute;bottom:4.5rem;left:0;right:0;overflow:hidden;border-top:.5px solid rgba(201,169,110,.12);border-bottom:.5px solid rgba(201,169,110,.12);padding:.55rem 0;}
+.hero-ticker{display:flex;white-space:nowrap;animation:tickerMove 24s linear infinite;}
+.hero-ticker span{font-family:var(--font-body);font-size:.52rem;letter-spacing:.45em;text-transform:uppercase;color:rgba(201,169,110,.38);padding:0 2rem;}
+.hero-ticker .gold-dot{color:var(--gold);}
+@keyframes tickerMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Vertical scroll hint */
+.scroll-hint{position:absolute;bottom:6rem;right:3rem;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:0;animation:fadeUp .9s 1.3s forwards;}
+.scroll-hint span{font-family:var(--font-body);font-size:.5rem;letter-spacing:.3em;text-transform:uppercase;color:var(--light-text);writing-mode:vertical-rl;}
+.scroll-line{width:.5px;height:48px;background:linear-gradient(to bottom,var(--gold),transparent);animation:scrollPulse 2s ease-in-out infinite;}
+@keyframes scrollPulse{0%,100%{opacity:.3;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.15)}}
+
+/* â”€â”€ Uniform placeholder box â”€â”€ */
+/* Every placeholder: identical 4/5 aspect-ratio, same bg, same border, same inner text style */
+.ph-box{
+  width:100%;aspect-ratio:4/5;
+  background:linear-gradient(145deg,var(--dark-2) 0%,var(--dark-3) 100%);
+  border:.5px solid rgba(201,169,110,.18);
+  display:flex;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;
+}
+.ph-box::before{content:'';position:absolute;inset:14px;border:.5px solid rgba(201,169,110,.07);pointer-events:none;}
+.ph-box::after{
+  content:'';position:absolute;inset:0;
+  background:repeating-linear-gradient(-45deg,transparent,transparent 20px,rgba(201,169,110,.012) 20px,rgba(201,169,110,.012) 21px);
+}
+.ph-inner{text-align:center;position:relative;z-index:1;}
+.ph-icon{font-size:2.2rem;color:rgba(201,169,110,.18);display:block;margin-bottom:.75rem;}
+.ph-label{font-family:var(--font-body);font-size:.58rem;letter-spacing:.25em;text-transform:uppercase;color:rgba(201,169,110,.2);}
+.ph-sub{font-family:var(--font-body);font-size:.48rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(201,169,110,.1);margin-top:4px;}
+/* Override old aspect-ratio on old .about-strip-visual */
+.about-strip-visual{aspect-ratio:unset!important;}
+
+/* â”€â”€ Portfolio grid: all cells same height (no .featured span) â”€â”€ */
+.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:1200px;margin:0 auto;padding:0 3rem 6rem;}
+.portfolio-item{aspect-ratio:3/4!important;grid-row:span 1!important;aspect-ratio:3/4;}
+/* inner placeholder fills item */
+.portfolio-item .ph-box{aspect-ratio:unset;position:absolute;inset:0;border:none;}
+
+/* â”€â”€ Stats counter bar â”€â”€ */
+.stats-bar{background:var(--dark-2);border-top:.5px solid rgba(201,169,110,.1);border-bottom:.5px solid rgba(201,169,110,.1);padding:3.5rem 0;}
+.stats-inner{max-width:1200px;margin:0 auto;padding:0 3rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(201,169,110,.08);}
+.stat-cell{background:var(--dark-2);padding:2.5rem 2rem;text-align:center;}
+.stat-n{font-family:var(--font-display);font-size:3.5rem;font-weight:300;color:var(--gold);line-height:1;display:block;}
+.stat-l{font-family:var(--font-body);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;color:var(--light-text);margin-top:.4rem;display:block;}
+
+/* â”€â”€ Process steps â”€â”€ */
+.process-section{background:var(--dark-2);border-top:.5px solid rgba(201,169,110,.08);border-bottom:.5px solid rgba(201,169,110,.08);padding:7rem 3rem;}
+.process-inner{max-width:1200px;margin:0 auto;}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(201,169,110,.08);margin-top:3rem;}
+.process-step{background:var(--dark-2);padding:3rem 2rem;text-align:center;transition:background .3s;}
+.process-step:hover{background:rgba(201,169,110,.04);}
+.ps-num{font-family:var(--font-display);font-size:3.5rem;font-weight:300;color:rgba(201,169,110,.1);line-height:1;margin-bottom:1rem;}
+.process-step h3{font-family:var(--font-display);font-size:1.2rem;font-weight:400;color:var(--cream);margin-bottom:.75rem;}
+.process-step p{font-family:var(--font-body);font-size:.78rem;line-height:1.8;color:var(--light-text);}
+
+/* â”€â”€ Inner page banner (non-home pages) â”€â”€ */
+.inner-banner{height:380px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;margin-bottom:5rem;}
+.inner-banner-bg{position:absolute;inset:0;background:linear-gradient(135deg,var(--dark-2) 0%,var(--dark-3) 60%,var(--dark-2) 100%);}
+.inner-banner-grid{position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(201,169,110,.035) 39px,rgba(201,169,110,.035) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(201,169,110,.035) 39px,rgba(201,169,110,.035) 40px);}
+.inner-banner-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(19,15,11,.25) 0%,rgba(19,15,11,.65) 100%);}
+.inner-banner-content{position:relative;z-index:2;text-align:center;padding:0 2rem;}
+.inner-banner-content .section-title{font-size:clamp(2.2rem,5vw,4rem);}
+.inner-banner-content p{font-family:var(--font-body);font-size:.88rem;color:var(--light-text);max-width:460px;margin:1.25rem auto 0;line-height:1.85;}
+
+/* â”€â”€ Blog card image strip â€” uniform 16/9 â”€â”€ */
+.blog-card-thumb{width:100%;aspect-ratio:16/9;background:linear-gradient(135deg,var(--dark-2) 0%,var(--dark-3) 100%);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.blog-card-thumb::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent,transparent 15px,rgba(201,169,110,.02) 15px,rgba(201,169,110,.02) 16px);}
+.blog-thumb-label{font-family:var(--font-display);font-size:.95rem;font-style:italic;color:rgba(201,169,110,.2);position:relative;z-index:1;}
+
+/* â”€â”€ Button hover fill animation â”€â”€ */
+.btn-primary{position:relative;overflow:hidden;transition:color .35s;}
+.btn-primary::before{content:'';position:absolute;inset:0;background:var(--dark);transform:translateY(100%);transition:transform .35s cubic-bezier(.25,.46,.45,.94);}
+.btn-primary:hover{color:var(--gold)!important;background:var(--gold);}
+.btn-primary:hover::before{transform:translateY(0);}
+.btn-primary>span,.btn-primary>*{position:relative;z-index:1;}
+
+/* â”€â”€ Team card: same aspect-ratio image â”€â”€ */
+.team-photo{width:100%;aspect-ratio:4/5;position:relative;overflow:hidden;}
+.team-photo .ph-box{aspect-ratio:unset;position:absolute;inset:0;border:none;}
+
+/* â”€â”€ Floating WhatsApp pulse â”€â”€ */
+.wa-float{position:fixed;bottom:calc(1.5rem + env(safe-area-inset-bottom));right:calc(1.5rem + env(safe-area-inset-right));width:56px;height:56px;background:#25D366;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;z-index:1200;box-shadow:0 4px 20px rgba(37,211,102,.32);animation:waPulse 3s ease-in-out infinite;transition:transform .2s,box-shadow .2s;}.wa-float:hover{transform:scale(1.08);box-shadow:0 6px 26px rgba(37,211,102,.44);}.wa-float svg{width:28px;height:28px;display:block;fill:currentColor;}
+@keyframes waPulse{0%,100%{box-shadow:0 4px 24px rgba(37,211,102,.25)}50%{box-shadow:0 4px 32px rgba(37,211,102,.45),0 0 0 8px rgba(37,211,102,.08)}}
+
+/* â”€â”€ Mobile nav overlay â”€â”€ */
+.mobile-nav-overlay{display:none;position:fixed;inset:0;background:rgba(19,15,11,.97);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:2rem;}
+.mobile-nav-overlay.open{display:flex;}
+.mobile-nav-overlay a{font-family:var(--font-display);font-size:2rem;font-weight:300;color:var(--cream);text-decoration:none;cursor:pointer;transition:color .2s;display:block;width:100%;text-align:center;}
+.mobile-nav-overlay a:hover{color:var(--gold);}
+.mobile-nav-close{position:absolute;top:1.5rem;right:2rem;background:none;border:none;font-size:1.5rem;color:var(--light-text);cursor:pointer;}
+
+@media(max-width:900px){
+  .hero-corner,.scroll-hint{display:none;}
+  .portfolio-grid{grid-template-columns:repeat(2,1fr);padding:0 1.5rem 4rem;}
+  .stats-inner{grid-template-columns:repeat(2,1fr);}
+  .process-grid{grid-template-columns:repeat(2,1fr);}
+  .inner-banner{height:300px;margin-bottom:3rem;}
+  .cursor-dot,.cursor-ring{display:none;}
+}
+@media(max-width:600px){
+  .portfolio-grid{grid-template-columns:1fr 1fr;gap:6px;padding:0 1rem 3rem;}
+  .process-grid{grid-template-columns:1fr;}
+  .stats-inner{grid-template-columns:1fr 1fr;}
+}
+
+
+
+/* â•â• CAREERS TAB SYSTEM â•â• */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--fb); background: var(--dark); color: var(--cream); }
+
+/* â”€â”€ BANNER â”€â”€ */
+.c-banner {
+  height: 340px; position: relative; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--dark-2) 0%, var(--dark-3) 100%);
+}
+.c-banner-grid {
+  position: absolute; inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(201,169,110,.04) 39px, rgba(201,169,110,.04) 40px),
+    repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(201,169,110,.04) 39px, rgba(201,169,110,.04) 40px);
+}
+.c-banner-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(19,15,11,.2) 0%, rgba(19,15,11,.7) 100%);
+}
+.c-banner-content { position: relative; z-index: 2; text-align: center; padding: 0 2rem; }
+.eyebrow {
+  font-family: var(--fb); font-size: .58rem; letter-spacing: .5em;
+  text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 1rem;
+}
+.c-banner-content h1 {
+  font-family: var(--fd); font-size: clamp(2.2rem,5vw,4rem);
+  font-weight: 300; color: var(--cream); line-height: 1.1;
+}
+.c-banner-content h1 em { font-style: italic; color: var(--gold); }
+.c-banner-content p {
+  font-family: var(--fb); font-size: .88rem; color: var(--light-text);
+  margin-top: 1rem; max-width: 460px; margin-left: auto; margin-right: auto; line-height: 1.8;
+}
+
+/* â”€â”€ OPENINGS â”€â”€ */
+.c-openings { max-width: 1000px; margin: 0 auto; padding: 4rem 2rem 2rem; }
+.c-openings-title {
+  font-family: var(--fd); font-size: clamp(1.8rem,3vw,2.8rem);
+  font-weight: 300; color: var(--cream); margin-bottom: 1.5rem;
+}
+.c-openings-title em { color: var(--gold); font-style: italic; }
+.opening-cards { display: flex; flex-direction: column; gap: 1px; background: rgba(201,169,110,.1); }
+.oc {
+  background: var(--dark); padding: 2rem 2.5rem;
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 1.5rem; cursor: pointer;
+  transition: background .25s;
+}
+.oc:hover { background: var(--dark-2); }
+.oc-left { flex: 1; }
+.oc-title { font-family: var(--fd); font-size: 1.4rem; color: var(--cream); margin-bottom: .5rem; }
+.oc-meta { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: .75rem; }
+.oc-tag {
+  font-family: var(--fb); font-size: .6rem; letter-spacing: .15em;
+  text-transform: uppercase; color: var(--light-text);
+  display: flex; align-items: center; gap: .4rem;
+}
+.oc-tag::before { content: ''; width: 3px; height: 3px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+.oc-desc { font-family: var(--fb); font-size: .78rem; line-height: 1.8; color: var(--light-text); }
+.oc-badge {
+  font-family: var(--fb); font-size: .55rem; letter-spacing: .18em; text-transform: uppercase;
+  border: .5px solid rgba(201,169,110,.3); color: var(--gold);
+  padding: .4rem 1rem; white-space: nowrap; flex-shrink: 0;
+}
+.oc-btn {
+  font-family: var(--fb); font-size: .6rem; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--gold); background: transparent;
+  border: .5px solid rgba(201,169,110,.3); padding: .65rem 1.4rem;
+  cursor: pointer; transition: all .25s; white-space: nowrap; flex-shrink: 0;
+}
+.oc-btn:hover { background: var(--gold); color: var(--dark); border-color: var(--gold); }
+
+/* â”€â”€ GOLD DIVIDER â”€â”€ */
+.gold-div {
+  height: .5px;
+  background: linear-gradient(90deg, transparent, rgba(201,169,110,.3), transparent);
+  margin: 3rem 0;
+}
+
+/* â”€â”€ TAB SWITCHER â”€â”€ */
+.c-apply { max-width: 900px; margin: 0 auto; padding: 0 2rem 5rem; }
+.c-apply-title {
+  font-family: var(--fd); font-size: clamp(1.8rem,3vw,2.8rem);
+  font-weight: 300; color: var(--cream); text-align: center; margin-bottom: 2rem;
+}
+.c-apply-title em { color: var(--gold); font-style: italic; }
+
+.tabs {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px; background: rgba(201,169,110,.15);
+  max-width: 560px; margin: 0 auto 3rem;
+}
+.tab-btn {
+  background: var(--dark-2); border: none; cursor: pointer;
+  padding: 1.5rem 1rem; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: .35rem;
+  transition: background .25s;
+}
+.tab-btn:hover { background: var(--dark-3); }
+.tab-btn.active {
+  background: var(--dark-3);
+  border-bottom: 2px solid var(--gold);
+}
+.tab-icon { font-size: 1.5rem; }
+.tab-name {
+  font-family: var(--fd); font-size: 1.05rem; color: var(--cream);
+}
+.tab-btn.active .tab-name { color: var(--gold); }
+.tab-sub {
+  font-family: var(--fb); font-size: .58rem;
+  letter-spacing: .1em; color: var(--light-text);
+}
+
+/* â”€â”€ FORM PANEL â”€â”€ */
+.form-panel { display: none; }
+.form-panel.active { display: block; }
+
+.form-header {
+  border-left: 2px solid var(--gold);
+  padding: .9rem 1.4rem; margin-bottom: 2.5rem;
+  background: rgba(201,169,110,.03);
+}
+.form-header-badge {
+  font-family: var(--fb); font-size: .65rem;
+  letter-spacing: .22em; text-transform: uppercase;
+  color: var(--gold); display: block; margin-bottom: .35rem;
+}
+.form-header p {
+  font-family: var(--fb); font-size: .76rem;
+  color: var(--light-text); line-height: 1.65;
+}
+
+.fblock-title {
+  font-family: var(--fb); font-size: .58rem;
+  letter-spacing: .35em; text-transform: uppercase; color: var(--gold);
+  border-bottom: .5px solid rgba(201,169,110,.15);
+  padding-bottom: .6rem; margin: 2.5rem 0 1.5rem;
+}
+.frow { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.fgroup { margin-bottom: 1.25rem; }
+.flabel {
+  font-family: var(--fb); font-size: .58rem;
+  letter-spacing: .25em; text-transform: uppercase;
+  color: var(--light-text); display: block; margin-bottom: .5rem;
+}
+.finput, .fselect, .ftextarea {
+  width: 100%; background: transparent;
+  border: none; border-bottom: .5px solid rgba(201,169,110,.22);
+  color: var(--cream); font-family: var(--fb); font-size: .86rem;
+  padding: .7rem 0; outline: none;
+  transition: border-color .25s; border-radius: 0; appearance: none;
+}
+.finput:focus, .fselect:focus, .ftextarea:focus { border-color: var(--gold); }
+.finput::placeholder, .ftextarea::placeholder { color: rgba(160,140,118,.45); font-size: .82rem; }
+.fselect option { background: var(--dark-2); color: var(--cream); }
+.ftextarea { resize: vertical; min-height: 110px; padding: .7rem 0; }
+
+/* â”€â”€ CHECKBOXES â”€â”€ */
+.chk-grid {
+  display: grid; grid-template-columns: repeat(4,1fr);
+  gap: .6rem; margin-top: .5rem;
+}
+.chk-item {
+  display: flex; align-items: center; gap: .5rem;
+  font-family: var(--fb); font-size: .74rem; color: var(--light-text);
+  padding: .55rem .7rem; border: .5px solid rgba(201,169,110,.1);
+  cursor: pointer; transition: all .2s; user-select: none;
+}
+.chk-item:hover { border-color: rgba(201,169,110,.3); background: rgba(201,169,110,.03); }
+.chk-item input { accent-color: var(--gold); width: 13px; height: 13px; flex-shrink: 0; }
+
+/* â”€â”€ SUBMIT BUTTON â”€â”€ */
+.fsubmit {
+  width: 100%; font-family: var(--fb); font-size: .65rem;
+  letter-spacing: .3em; text-transform: uppercase;
+  color: var(--dark); background: var(--gold); border: none;
+  padding: 1.2rem; cursor: pointer; margin-top: 2rem;
+  transition: background .25s, letter-spacing .2s;
+  display: flex; align-items: center; justify-content: center; gap: .75rem;
+}
+.fsubmit:hover:not(:disabled) { background: var(--gold-light); letter-spacing: .35em; }
+.fsubmit:disabled { opacity: .6; cursor: not-allowed; }
+.fspinner {
+  width: 15px; height: 15px;
+  border: 1.5px solid rgba(26,20,16,.3);
+  border-top-color: var(--dark);
+  border-radius: 50%; animation: spin .7s linear infinite;
+  display: none;
+}
+.fsubmit.loading .fspinner { display: block; }
+.fsubmit.loading .fbtn-text { opacity: .7; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* â”€â”€ STATUS MESSAGES â”€â”€ */
+.status-box { padding: 2rem 2.5rem; margin-bottom: 2rem; text-align: center; }
+.status-box.success {
+  background: rgba(37,211,102,.05);
+  border: .5px solid rgba(37,211,102,.3);
+}
+.status-box.success h3 {
+  font-family: var(--fd); font-size: 1.7rem; font-style: italic;
+  color: #25D366; margin-bottom: .75rem;
+}
+.status-box.success p { font-family: var(--fb); font-size: .82rem; color: var(--light-text); line-height: 1.7; }
+.status-box.error {
+  background: rgba(220,80,80,.05);
+  border: .5px solid rgba(220,80,80,.3);
+}
+.status-box.error p { font-family: var(--fb); font-size: .82rem; color: #e05555; }
+.status-box.sending {
+  background: rgba(201,169,110,.04);
+  border: .5px solid rgba(201,169,110,.2);
+}
+.status-box.sending p {
+  font-family: var(--fb); font-size: .78rem; color: var(--gold);
+  display: flex; align-items: center; justify-content: center; gap: .75rem;
+}
+.status-spinner {
+  width: 15px; height: 15px;
+  border: 1.5px solid rgba(201,169,110,.25);
+  border-top-color: var(--gold);
+  border-radius: 50%; animation: spin .7s linear infinite; flex-shrink: 0;
+}
+
+/* â”€â”€ WHY JOIN â”€â”€ */
+.why-join {
+  background: var(--dark-2);
+  border-top: .5px solid rgba(201,169,110,.08);
+  padding: 4rem 2rem;
+}
+.why-join-inner { max-width: 1000px; margin: 0 auto; }
+.why-grid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 1px; background: rgba(201,169,110,.08); margin-top: 2.5rem;
+}
+.why-card { background: var(--dark-2); padding: 2.5rem 2rem; }
+.why-card-icon { font-family: var(--fd); font-size: 2rem; color: var(--gold); display: block; margin-bottom: 1rem; }
+.why-card-title { font-family: var(--fd); font-size: 1.1rem; color: var(--cream); margin-bottom: .6rem; }
+.why-card-text { font-family: var(--fb); font-size: .76rem; color: var(--light-text); line-height: 1.8; }
+
+/* â”€â”€ RESPONSIVE â”€â”€ */
+@media (max-width: 700px) {
+  .frow { grid-template-columns: 1fr; gap: 0; }
+  .chk-grid { grid-template-columns: repeat(2,1fr); }
+  .oc { flex-direction: column; align-items: flex-start; }
+  .why-grid { grid-template-columns: 1fr; }
+  .tabs { max-width: 100%; }
+}
+@media (max-width: 460px) {
+  .chk-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* === Mobile responsive polish added by Codex === */
+img, video, canvas, svg { max-width: 100%; height: auto; }
+button, input, select, textarea { font: inherit; }
+a, button { -webkit-tap-highlight-color: rgba(201,169,110,.18); }
+
+@media (max-width: 1024px) {
+  .hero-content {
+    width: min(70%, 640px);
+    margin-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .services-grid,
+  .blog-grid,
+  .team-grid,
+  .why-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .about-values-grid,
+  .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-top {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  html { font-size: 15px; }
+  body { cursor: auto; }
+
+  .nav,
+  .nav.scrolled {
+    padding: .85rem 1rem;
+    align-items: center;
+  }
+
+  .nav-logo {
+    font-size: clamp(1.05rem, 5vw, 1.35rem);
+    letter-spacing: .06em;
+    max-width: calc(100vw - 5rem);
+  }
+
+  .nav-logo span {
+    font-size: .48rem;
+    letter-spacing: .22em;
+  }
+
+  .menu-toggle {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-nav-overlay {
+    z-index: 2000;
+    padding: 5rem 1.5rem 2rem;
+    gap: 1.35rem;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .mobile-nav-overlay a {
+    font-size: clamp(1.55rem, 9vw, 2.15rem);
+    line-height: 1.1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-ornament,
+  .hero-pattern {
+    display: none;
+  }
+
+  .hero {
+    min-height: 100svh;
+    align-items: flex-end;
+  }
+
+  #page-home .hero {
+    justify-content: center;
+  }
+
+  .hero-banner-img {
+    object-position: 62% center;
+  }
+
+  .hero-overlay {
+    background:
+      linear-gradient(to bottom, rgba(19,15,11,.16) 0%, rgba(19,15,11,.42) 42%, rgba(19,15,11,.86) 100%),
+      linear-gradient(to right, rgba(19,15,11,.4), transparent 72%);
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 6.25rem 1rem 9.25rem;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .hero-eyebrow {
+    font-size: .56rem;
+    letter-spacing: .28em;
+    margin-bottom: 1.2rem;
+    color: var(--white);
+  }
+
+  .hero-title {
+    font-size: clamp(2.55rem, 14vw, 4.2rem);
+    line-height: 1;
+    color: var(--white);
+  }
+
+  .hero-subtitle {
+    font-size: .68rem;
+    letter-spacing: .12em;
+    margin-bottom: 1.35rem;
+    color: var(--white);
+  }
+
+  .hero-desc {
+    font-size: 1.02rem;
+    line-height: 1.55;
+    margin-bottom: 1.8rem;
+    max-width: 34rem;
+    color: var(--white);
+  }
+
+  .hero-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  .oc-btn,
+  .form-submit,
+  .fsubmit {
+    min-height: 44px;
+    max-width: 100%;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.25;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    padding: .95rem 1rem;
+    letter-spacing: .18em;
+  }
+
+  .hero-stats {
+    left: 1rem;
+    right: 1rem;
+    bottom: 3.2rem;
+    justify-content: space-between;
+    gap: .4rem;
+  }
+
+  .hero-stat {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .hero-stat-num {
+    font-size: clamp(1.35rem, 8vw, 2rem);
+  }
+
+  .hero-stat-label {
+    font-size: .48rem;
+    letter-spacing: .14em;
+    line-height: 1.35;
+  }
+
+  .hero-divider {
+    height: 28px;
+    flex: 0 0 1px;
+  }
+
+  .hero-ticker-wrap {
+    bottom: 0;
+  }
+
+  .section,
+  .process-section,
+  .team-section,
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section,
+  .section-full,
+  .process-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .services-page-hero,
+  .portfolio-hero,
+  .blog-hero,
+  .careers-hero,
+  .about-hero,
+  .contact-hero,
+  .blog-post {
+    padding: 6.5rem 1rem 3rem;
+  }
+
+  .inner-banner,
+  .c-banner {
+    height: auto;
+    min-height: 250px;
+    padding: 6rem 0 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .inner-banner-content,
+  .c-banner-content {
+    padding: 0 1rem;
+  }
+
+  .section-title,
+  .contact-info h1,
+  .careers-hero h1,
+  .c-banner-content h1 {
+    font-size: clamp(2rem, 11vw, 3rem);
+    line-height: 1.05;
+  }
+
+  .section-body,
+  .contact-info p,
+  .inner-banner-content p,
+  .c-banner-content p {
+    font-size: .9rem;
+    line-height: 1.75;
+  }
+
+  .services-grid,
+  .service-full-grid,
+  .blog-grid,
+  .about-hero,
+  .contact-hero,
+  .team-grid,
+  .why-grid,
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .about-strip {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .services-grid,
+  .blog-grid,
+  .service-full-grid,
+  .about-values-grid,
+  .process-grid,
+  .stats-inner {
+    width: 100%;
+  }
+
+  .service-card,
+  .service-full-card,
+  .process-step,
+  .stat-cell,
+  .why-card,
+  .blog-card,
+  .value-card,
+  .testimonial-card {
+    padding: 2rem 1.25rem;
+  }
+
+  .portfolio-filters {
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: .4rem;
+    scrollbar-width: none;
+  }
+
+  .portfolio-filters::-webkit-scrollbar { display: none; }
+
+  .filter-btn {
+    flex: 0 0 auto;
+    min-height: 40px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    padding: 0 1rem 3rem;
+  }
+
+  .stats-inner,
+  .about-values-grid,
+  .process-grid,
+  .chk-grid {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact-details li,
+  .opening-details,
+  .footer-bottom,
+  .oc {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-details .ci-label {
+    min-width: 0;
+  }
+
+  .form-row,
+  .frow {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .apply-form-wrap,
+  .c-openings,
+  .c-apply,
+  .openings-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .oc,
+  .opening-card,
+  .status-box,
+  .form-success {
+    padding: 1.5rem 1rem;
+  }
+
+  .tabs {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+  }
+
+  .whatsapp-strip {
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .wa-float {
+    right: 1rem;
+    bottom: 1rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .cursor-dot,
+  .cursor-ring {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #page-home > div[style*="max-width:1200px"] {
+    padding: 4rem 1rem 1.5rem !important;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 650px) {
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-content {
+    padding-top: 5.25rem;
+    padding-bottom: 5.75rem;
+  }
+
+  .hero-desc {
+    display: none;
+  }
+
+  .hero-stats {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .btn-primary,
+  .btn-secondary,
+  .form-submit,
+  .fsubmit {
+    letter-spacing: .12em;
+  }
+
+  .hero-stats {
+    display: none;
+  }
+
+  .hero-content {
+    padding-bottom: 5.75rem;
+  }
+}
+
+@media (max-width: 420px) {
+  html { font-size: 14px; }
+
+  .hero-content {
+    padding-bottom: 9.75rem;
+  }
+
+  .hero-stats {
+    gap: .25rem;
+  }
+
+  .hero-stat-label {
+    letter-spacing: .08em;
+  }
+
+  .portfolio-grid,
+  .stats-inner,
+  .about-values-grid,
+  .chk-grid {
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 720px) and (orientation: portrait) {
+    .hero {
+      min-height: auto;
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+      align-items: flex-start;
+    }
+
+    .hero-content {
+      padding: 3rem 1rem 2.5rem;
+      max-width: 100%;
+      width: 100%;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-size: clamp(2rem, 10vw, 2.8rem);
+      line-height: 1.05;
+    }
+
+    .hero-desc {
+      font-size: 0.92rem;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+      max-width: 100%;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      width: 100%;
+      padding: 0.9rem 1rem;
+    }
+
+    .hero-stats {
+      position: static;
+      transform: none;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      margin-top: 1.5rem;
+      width: 100%;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-stat {
+      flex: 1 1 48%;
+      min-width: 0;
+    }
+
+    .hero-corner,
+    .hero-pattern,
+    .hero-grid-texture {
+      display: none;
+    }
+  }
+
+  .portfolio-item {
+    aspect-ratio: 4 / 5 !important;
+  }
+
+  .service-card,
+  .service-full-card,
+  .process-step,
+  .stat-cell,
+  .why-card,
+  .blog-card,
+  .value-card,
+  .testimonial-card {
+    padding: 1.65rem 1rem;
+  }
+
+  .mobile-nav-close {
+    right: 1rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- â”€â”€ NAV â”€â”€ -->
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#" onclick="showPage('home')">
+    Vogue Makeovers
+    <span>Agra's Luxury Makeup Studio</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('services')">Services</a></li>
+    <li><a href="#" onclick="showPage('portfolio')">Portfolio</a></li>
+    <li><a href="#" onclick="showPage('blog')">Blog</a></li>
+    <li><a href="#" onclick="showPage('about')">About</a></li>
+    <li><a href="#" onclick="showPage('careers')">Careers</a></li>
+    <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+  </ul>
+  <a class="nav-book" href="#" onclick="showPage('contact')">Book Now</a>
+  <button class="menu-toggle" onclick="openMobileNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• HOME â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="page active" id="page-home">
+
+  <section class="hero">
+    <!-- âœ¦ BANNER IMAGE â€” replace src with your photo âœ¦ -->
+    <img class="hero-banner-img" src="images/hero-banner.png" alt="Vogue Makeovers Agra Bridal">
+    <div class="hero-overlay"></div>
+    <div class="hero-grid-texture"></div>
+    <div class="hero-corner tl"></div>
+    <div class="hero-corner tr"></div>
+    <div class="hero-corner bl"></div>
+    <div class="hero-corner br"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Agra's Premier Bridal Makeup Studio</span>
+      <h1 class="hero-title">You Deserve to <em>Glow</em><br>On Your Day</h1>
+      <p class="hero-subtitle">Vogue Makeovers Â· Agra Â· Est. 2022</p>
+      <p class="hero-desc">Where Agra's rich heritage of beauty meets the artistry of modern bridal transformation â€” crafted look by look, bride by bride.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Book a Consultation</a>
+        <button class="btn-secondary" onclick="showPage('portfolio')">View Portfolio</button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-num">500+</span>
+        <span class="hero-stat-label" style="color: white; font-weight: 700; font-size: .5rem;"">Happy Brides</span>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">8+</span>
+        <span class="hero-stat-label" style="color: white; font-weight: 700; font-size: .5rem;">Years Experience</span>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">100%</span>
+        <span class="hero-stat-label" style="color: white; font-weight: 700; font-size: .5rem;">Cruelty-Free Products</span>
+      </div>
+    </div>
+  
+    <!-- Scrolling ticker -->
+    <div class="hero-ticker-wrap">
+      <div class="hero-ticker">
+        <span>Bridal Makeover</span><span class="gold-dot">âœ¦</span>
+        <span>HD Makeup</span><span class="gold-dot">âœ¦</span>
+        <span>Airbrush Finish</span><span class="gold-dot">âœ¦</span>
+        <span>Pre-Bridal Packages</span><span class="gold-dot">âœ¦</span>
+        <span>Party Glam</span><span class="gold-dot">âœ¦</span>
+        <span>Editorial Looks</span><span class="gold-dot">âœ¦</span>
+        <span>Destination Bridal</span><span class="gold-dot">âœ¦</span>
+        <span>Agra's Finest Studio</span><span class="gold-dot">âœ¦</span>
+        <span>Bridal Makeover</span><span class="gold-dot">âœ¦</span>
+        <span>HD Makeup</span><span class="gold-dot">âœ¦</span>
+        <span>Airbrush Finish</span><span class="gold-dot">âœ¦</span>
+        <span>Pre-Bridal Packages</span><span class="gold-dot">âœ¦</span>
+        <span>Party Glam</span><span class="gold-dot">âœ¦</span>
+        <span>Editorial Looks</span><span class="gold-dot">âœ¦</span>
+        <span>Destination Bridal</span><span class="gold-dot">âœ¦</span>
+        <span>Agra's Finest Studio</span><span class="gold-dot">âœ¦</span>
+      </div>
+    </div>
+    <!-- Scroll hint -->
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <div class="gold-divider"></div>
+
+  <!-- â”€â”€ STATS BAR â”€â”€ -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-cell reveal"><span class="stat-n" data-target="500">0+</span><span class="stat-l">Happy Brides</span></div>
+      <div class="stat-cell reveal reveal-d1"><span class="stat-n" data-target="8">0+</span><span class="stat-l">Years Experience</span></div>
+      <div class="stat-cell reveal reveal-d2"><span class="stat-n" data-target="100">0%</span><span class="stat-l">Cruelty-Free</span></div>
+      <div class="stat-cell reveal reveal-d3"><span class="stat-n" data-target="3">0</span><span class="stat-l">Cities Served</span></div>
+    </div>
+  </div>
+
+
+
+  <!-- Services Preview -->
+  <div style="max-width:1200px; margin:0 auto; padding:7rem 3rem 2rem;">
+    <span class="section-eyebrow">What We Do</span>
+    <h2 class="section-title">Every Look, <em>Perfected</em></h2>
+    <div class="section-line"></div>
+    <p class="section-body">From intimate mehndi ceremonies to grand receptions under the Agra sky â€” we create looks that photograph beautifully and last all day.</p>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card" onclick="showPage('services')">
+      <div class="service-num">01</div>
+      <div class="service-name">Bridal Makeover</div>
+      <div class="service-desc">Full bridal transformation for your wedding day. HD or airbrush finish, trial included, in-home or studio.</div>
+      <span class="service-price">From â‚¹12,000</span>
+    </div>
+    <div class="service-card" onclick="showPage('services')">
+      <div class="service-num">02</div>
+      <div class="service-name">Pre-Bridal Packages</div>
+      <div class="service-desc">Skin prep, facial treatments, and coordinated looks for mehndi, sangeet, and engagement ceremonies.</div>
+      <span class="service-price">From â‚¹6,000</span>
+    </div>
+    <div class="service-card" onclick="showPage('services')">
+      <div class="service-num">03</div>
+      <div class="service-name">Party & Reception</div>
+      <div class="service-desc">Head-turning party glam for every celebration. Bold eye looks, flawless skin, long-lasting finish.</div>
+      <span class="service-price">From â‚¹3,500</span>
+    </div>
+    <div class="service-card" onclick="showPage('services')">
+      <div class="service-num">04</div>
+      <div class="service-name">Editorial & Shoots</div>
+      <div class="service-desc">Portfolio shoots, fashion editorials, and brand campaigns. Work with Vogue Productions photography team.</div>
+      <span class="service-price">From â‚¹5,000</span>
+    </div>
+    <div class="service-card" onclick="showPage('services')">
+      <div class="service-num">05</div>
+      <div class="service-name">Family Makeovers</div>
+      <div class="service-desc">Mother of bride, bridesmaids, and family packages â€” look coordinated and camera-ready together.</div>
+      <span class="service-price">From â‚¹2,500/person</span>
+    </div>
+    <div class="service-card" onclick="showPage('services')">
+      <div class="service-num">06</div>
+      <div class="service-name">Destination Bridal</div>
+      <div class="service-desc">On-location services for destination weddings near Agra â€” Taj Mahal backdrops, outdoor venues, resorts.</div>
+      <span class="service-price">From â‚¹18,000</span>
+    </div>
+  </div>
+
+  <!-- About Strip -->
+  <div class="about-strip">
+    <div class="about-strip-visual">
+      <div class="visual-placeholder">
+        <span class="visual-placeholder-icon">âœ¦</span>
+        <p>Studio Portrait</p>
+        <p style="margin-top:0.5rem;">[ Add your photo ]</p>
+      </div>
+      <div class="about-tag">Agra's Premium Studio</div>
+    </div>
+    <div>
+      <span class="section-eyebrow">Our Story</span>
+      <h2 class="section-title">Art Meets <em>Beauty</em><br>in the City of Love</h2>
+      <div class="section-line"></div>
+      <p class="section-body">Born in the shadow of the Taj Mahal, Vogue Makeovers believes every woman carries her own kind of monument â€” timeless, irreplaceable, and worthy of celebration.</p>
+      <p class="section-body" style="margin-top:1.25rem;">We are Agra's only full-service luxury makeup studio, working hand-in-hand with Vogue Productions to give every bride not just a look, but a moment she will remember for a lifetime.</p>
+      <a class="btn-secondary" href="#" onclick="showPage('about')" style="margin-top:2.5rem; display:inline-block;">Our Story â†’</a>
+    </div>
+  </div>
+
+
+  <!-- â”€â”€ PROCESS SECTION â”€â”€ -->
+  <div class="process-section">
+    <div class="process-inner">
+      <span class="section-eyebrow reveal">How It Works</span>
+      <h2 class="section-title reveal reveal-d1">Your Journey to <em>Flawless</em></h2>
+      <div class="process-grid">
+        <div class="process-step reveal"><div class="ps-num">01</div><h3>Consultation</h3><p>Free call or studio visit. We understand your vision, skin type, and event before anything else.</p></div>
+        <div class="process-step reveal reveal-d1"><div class="ps-num">02</div><h3>Trial Session</h3><p>We test the look on your face. You approve before we book the wedding day.</p></div>
+        <div class="process-step reveal reveal-d2"><div class="ps-num">03</div><h3>Wedding Morning</h3><p>We arrive early. Every product prepped. Your look built layer by perfect layer.</p></div>
+        <div class="process-step reveal reveal-d3"><div class="ps-num">04</div><h3>Eternal Glow</h3><p>Your look lasts through every function, every photo, every dance â€” all day and night.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="testimonials-bg">
+    <div class="testimonials-inner">
+      <span class="section-eyebrow">Client Love</span>
+      <h2 class="section-title">What Our <em>Brides</em> Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">Testimonital</div>
+          <p class="testimonial-text">I was terrified about my bridal look â€” but the team at Vogue Makeovers made me feel like a queen. The HD makeup lasted all 8 hours without a touch-up. Absolutely magical.</p>
+          <span class="testimonial-author"> Priya Sharma, Agra</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">Testimonital</div>
+          <p class="testimonial-text">They came home the morning of my wedding and transformed my whole family. My mother cried when she saw me. The airbrush was so light, I forgot I was even wearing makeup.</p>
+          <span class="testimonial-author"> Ananya Gupta, Mathura</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">Testimonital</div>
+          <p class="testimonial-text">Our destination wedding photos near the Taj came out so stunning. The makeup was flawless in every shot. Vogue Makeovers is in a league of their own in Agra.</p>
+          <span class="testimonial-author"> Ritika Agarwal, Delhi</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Strip -->
+  <div style="text-align:center; padding:7rem 3rem; background: linear-gradient(135deg, var(--dark-2) 0%, var(--dark) 100%);">
+    <span class="section-eyebrow">Ready to Begin?</span>
+    <h2 class="section-title" style="text-align:center; margin:0 auto 1rem;">Your Look is Waiting</h2>
+    <div class="section-line" style="margin:1.5rem auto 2rem;"></div>
+    <p style="font-family:var(--font-body); font-size:0.9rem; color:var(--light-text); max-width:480px; margin:0 auto 2.5rem; line-height:1.9;">Book a free consultation and let us understand your wedding day vision â€” no commitment required.</p>
+    <a class="btn-primary" href="#" onclick="showPage('contact')">Book Free Consultation</a>
+  </div>
+
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• SERVICES â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="page" id="page-services">
+  
+  <div class="inner-banner">
+    <div class="inner-banner-bg"></div>
+    <div class="inner-banner-grid"></div>
+    <div class="inner-banner-overlay"></div>
+    <div class="inner-banner-content">
+      <span class="section-eyebrow">Makeover Services</span>
+      <h1 class="section-title">Every Service, <em>Crafted for You</em></h1>
+      <p>Premium, cruelty-free products for every skin tone. All services include a pre-look consultation.</p>
+    </div>
+  </div>
+
+<div class="services-page-hero" style="display:none;">
+    <span class="section-eyebrow">Makeover Services</span>
+    <h1 class="section-title" style="text-align:center; margin:0 auto 1rem;">Every Service, <em>Crafted for You</em></h1>
+    <div class="section-line" style="margin:1.5rem auto 2rem;"></div>
+    <p style="font-family:var(--font-body); font-size:0.9rem; color:var(--light-text); max-width:520px; margin:0 auto; line-height:1.9;">We use only premium, cruelty-free products tailored for every skin tone and type. All services include a pre-look consultation.</p>
+  </div>
+
+  <div class="service-full-grid">
+    <div class="service-full-card">
+      <h3>Bridal Makeover</h3>
+      <p>The centrepiece of our studio â€” a full-day bridal transformation that combines flawless technique with your personal vision. Available in HD, airbrush, and hybrid finishes.</p>
+      <ul class="service-includes">
+        <li>Pre-bridal trial session included</li>
+        <li>HD or airbrush finish â€” your choice</li>
+        <li>Premium MAC, Huda Beauty & Kryolan products</li>
+        <li>Includes hair styling and draping</li>
+        <li>Touch-up kit provided for the day</li>
+        <li>Available in-studio or at your venue</li>
+      </ul>
+      <div class="service-price-block">
+        <span class="price-from">Starting from</span>
+        <span class="price-num">â‚¹12,000</span>
+      </div>
+    </div>
+    <div class="service-full-card">
+      <h3>Airbrush Bridal</h3>
+      <p>Agra's most premium bridal finish. Airbrush makeup creates an impossibly flawless, lightweight layer that photographs beautifully and lasts 10â€“12 hours without touching up.</p>
+      <ul class="service-includes">
+        <li>Dinair professional airbrush system</li>
+        <li>Water-resistant, sweat-proof formula</li>
+        <li>Ideal for outdoor & destination weddings</li>
+        <li>Pre-shoot testing included</li>
+        <li>Sets beautifully in Agra's outdoor light</li>
+        <li>Full day touchup service available</li>
+      </ul>
+      <div class="service-price-block">
+        <span class="price-from">Starting from</span>
+        <span class="price-num">â‚¹18,000</span>
+      </div>
+    </div>
+    <div class="service-full-card">
+      <h3>Pre-Bridal Package</h3>
+      <p>A curated 4-session journey designed to bring out your skin's natural glow before your wedding. Includes facials, skin prep, and coordinated function looks.</p>
+      <ul class="service-includes">
+        <li>30-day pre-bridal skincare plan</li>
+        <li>4 facial treatment sessions</li>
+        <li>Mehndi & sangeet makeup included</li>
+        <li>Engagement look included</li>
+        <li>Diet & skincare guidance sheet</li>
+        <li>Priority booking for wedding day</li>
+      </ul>
+      <div class="service-price-block">
+        <span class="price-from">Starting from</span>
+        <span class="price-num">â‚¹22,000</span>
+      </div>
+    </div>
+    <div class="service-full-card">
+      <h3>Party & Reception Glam</h3>
+      <p>For every family member who wants to shine. Cocktail parties, reception nights, birthday shoots, anniversary events â€” bold, long-lasting looks for every occasion.</p>
+      <ul class="service-includes">
+        <li>Smokey eyes, cut crease, soft glam options</li>
+        <li>Matching hair styling available</li>
+        <li>Group bookings welcome (5+ discount)</li>
+        <li>At-home service available</li>
+        <li>2â€“3 hour appointment slot</li>
+        <li>Evening & morning slots available</li>
+      </ul>
+      <div class="service-price-block">
+        <span class="price-from">Starting from</span>
+        <span class="price-num">â‚¹3,500</span>
+      </div>
+    </div>
+    <div class="service-full-card">
+      <h3>Portfolio & Editorial</h3>
+      <p>Working closely with the Vogue Productions photography team, we create editorial and model portfolio looks for aspiring models, Instagram creators, and fashion brands in Agra.</p>
+      <ul class="service-includes">
+        <li>Concept and mood board consultation</li>
+        <li>High-fashion & natural looks</li>
+        <li>Coordinated with the shoot lighting</li>
+        <li>Full shoot-day availability</li>
+        <li>Hair and makeup bundled</li>
+        <li>Post-shoot look review with client</li>
+      </ul>
+      <div class="service-price-block">
+        <span class="price-from">Starting from</span>
+        <span class="price-num">â‚¹5,000</span>
+      </div>
+    </div>
+    <div class="service-full-card">
+      <h3>Destination Bridal</h3>
+      <p>Getting married near the Taj Mahal or at an Agra heritage venue? Our destination bridal service brings the full studio experience to your location, anywhere in the city.</p>
+      <ul class="service-includes">
+        <li>Full studio kit brought on location</li>
+        <li>Agra & surrounding 50km radius</li>
+        <li>Outdoor makeup techniques included</li>
+        <li>Weather-proof finish formulas</li>
+        <li>Assistant artist on premium packages</li>
+        <li>Early morning slots from 5:30am</li>
+      </ul>
+      <div class="service-price-block">
+        <span class="price-from">Starting from</span>
+        <span class="price-num">â‚¹18,000</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center; padding:4rem 3rem 7rem;">
+    <p style="font-family:var(--font-body); font-size:0.85rem; color:var(--light-text); margin-bottom:2rem;">All prices are indicative. Final pricing depends on your location, number of looks, and date.</p>
+    <a class="btn-primary" href="#" onclick="showPage('contact')">Get a Custom Quote</a>
+  </div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PORTFOLIO â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="page" id="page-portfolio">
+  
+  <div class="inner-banner">
+    <div class="inner-banner-bg"></div>
+    <div class="inner-banner-grid"></div>
+    <div class="inner-banner-overlay"></div>
+    <div class="inner-banner-content">
+      <span class="section-eyebrow">Our Work</span>
+      <h1 class="section-title">Real Brides, <em>Real Transformations</em></h1>
+      <p>Every look below is a real client. Browse by occasion.</p>
+    </div>
+  </div>
+
+<div class="portfolio-hero" style="display:none;">
+    <span class="section-eyebrow">Our Work</span>
+    <h1 class="section-title" style="text-align:center; margin:0 auto 1rem;">Before & After, <em>Every Time</em></h1>
+    <div class="section-line" style="margin:1.5rem auto 2rem;"></div>
+    <p style="font-family:var(--font-body); font-size:0.9rem; color:var(--light-text); max-width:480px; margin:0 auto; line-height:1.9;">Each look below is a real client. Browse by occasion and let the work speak for itself.</p>
+  </div>
+
+  <div class="portfolio-filters" style="padding:0 3rem 2rem;">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Bridal</button>
+    <button class="filter-btn">Airbrush</button>
+    <button class="filter-btn">Pre-Bridal</button>
+    <button class="filter-btn">Party</button>
+    <button class="filter-btn">Editorial</button>
+  </div>
+
+  <div class="portfolio-grid">
+    <div class="portfolio-item">
+      <div class="visual-placeholder" style="text-align:center;">
+        <span style="font-family:var(--font-display); font-size:4rem; color:rgba(201,169,110,0.15);">âœ¦</span>
+        <img src="images/bridal-look-1.png" alt="Priya wearing HD glam bridal makeup: close-up portrait with dewy, flawless skin, defined eyes with long lashes, softly contoured cheeks and nude pink lips; wearing ornate red bridal lehenga and dupatta with visible jewelry; indoor wedding-day setting in Agra with warm, soft lighting; overlaid text reads Priyas Bridal â€” HD Glam and Wedding Day Â· Agra; emotional tone elegant, confident, joyful" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+      <div class="portfolio-item-overlay">
+        <span class="portfolio-item-label">Priya's Bridal â€” HD Glam</span>
+        <span style="font-size:0.6rem; letter-spacing:0.2em; color:var(--light-text); text-transform:uppercase; margin-top:0.5rem;">Wedding Day Â· Agra</span>
+      </div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">âœ¨</span><div class="ph-label">Airbrush Bridal</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Airbrush Finish</span></div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">ðŸŒ¸</span><div class="ph-label">Sangeet Look</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Sangeet Night</span></div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">ðŸŒ¿</span><div class="ph-label">Mehndi Look</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Mehndi Glow</span></div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">ðŸŽ‰</span><div class="ph-label">Reception Glam</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Reception Night</span></div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">ðŸ“¸</span><div class="ph-label">Editorial Look</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Editorial Fashion</span></div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">ðŸ’ƒ</span><div class="ph-label">Party Glam</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Party Glam</span></div>
+    </div>
+    <div class="portfolio-item">
+      <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+        <div class="ph-inner"><span class="ph-icon">ðŸ•Šï¸</span><div class="ph-label">Soft Bridal</div><div class="ph-sub">[ Add Photo ]</div></div>
+      </div>
+      <div class="portfolio-item-overlay"><span class="portfolio-item-label">Soft Bridal Look</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• BLOG â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="page" id="page-blog">
+  <div id="blog-list">
+    
+  <div class="inner-banner">
+    <div class="inner-banner-bg"></div>
+    <div class="inner-banner-grid"></div>
+    <div class="inner-banner-overlay"></div>
+    <div class="inner-banner-content">
+      <span class="section-eyebrow">Beauty Insights</span>
+      <h1 class="section-title">The Vogue <em>Beauty Journal</em></h1>
+      <p>Expert tips, bridal trends, and beauty guides from Agra's leading makeup studio.</p>
+    </div>
+  </div>
+
+<div class="blog-hero" style="display:none;">
+      <span class="section-eyebrow">Beauty Insights</span>
+      <h1 class="section-title" style="text-align:center; margin:0 auto 1rem;">The Vogue <em>Beauty Journal</em></h1>
+      <div class="section-line" style="margin:1.5rem auto 2rem;"></div>
+      <p style="font-family:var(--font-body); font-size:0.9rem; color:var(--light-text); max-width:480px; margin:0 auto; line-height:1.9;">Expert tips, bridal trends, and beauty guides from Agra's leading makeup studio.</p>
+    </div>
+
+    <div class="blog-grid" id="blogGrid">
+      <!-- Blog cards rendered by JS -->
+    </div>
+    <div style="padding:4rem 3rem 7rem;"></div>
+  </div>
+
+  <div id="blog-single" style="display:none;"></div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• ABOUT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="page" id="page-about">
+  
+  <div class="inner-banner">
+    <div class="inner-banner-bg"></div>
+    <div class="inner-banner-grid"></div>
+    <div class="inner-banner-overlay"></div>
+    <div class="inner-banner-content">
+      <span class="section-eyebrow">Who We Are</span>
+      <h1 class="section-title">The Studio Behind <em>Agra's</em> Brides</h1>
+      <p>Crafting looks remembered long after the celebration ends.</p>
+    </div>
+  </div>
+
+<div class="about-hero">
+    <div class="about-content">
+      <span class="section-eyebrow">Who We Are</span>
+      <h1>The Studio Behind <em>Agra's</em> Most Beautiful Brides</h1>
+      <div class="section-line"></div>
+      <p>Vogue Makeovers was founded with a single conviction: every woman in Agra deserves the same quality of artistry that brides in Delhi and Mumbai receive â€” at a level that honours their individuality.</p>
+      <p>We are not a parlour. We are not a salon chain. We are a curated studio of makeup artists, each trained in HD, airbrush, and traditional techniques, each passionate about making your face the most celebrated canvas in the room.</p>
+      <p>Partnered with Vogue Productions â€” Agra's leading photography and production house â€” we offer something no other studio in the city can: seamless makeup-to-photograph continuity, ensuring your look was made not just to be seen, but to be remembered.</p>
+      <p>Located in the heart of Agra, we serve brides across the city and neighbouring regions of Mathura, Firozabad, and beyond.</p>
+    </div>
+    <div class="about-strip-visual ph-box" style="aspect-ratio:4/5;position:relative;">
+      <!-- Replace with: <img src="images/about-studio.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"> -->
+      <div class="ph-inner">
+        <span class="ph-icon">âœ¦</span>
+        <div class="ph-label">Studio Portrait</div>
+        <div class="ph-sub">[ Replace with your photo ]</div>
+      </div>
+      <div class="about-tag">Agra's Premium Studio</div>
+    </div>
+  </div>
+
+  <div class="about-values">
+    <span class="section-eyebrow">Our Philosophy</span>
+    <h2 class="section-title">What We <em>Stand For</em></h2>
+    <div class="about-values-grid">
+      <div class="value-card">
+        <span class="value-icon">âœ¦</span>
+        <div class="value-title">Skin First</div>
+        <p class="value-text">Great makeup starts with great skin prep. We invest in your canvas before we touch a brush.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">â—ˆ</span>
+        <div class="value-title">Longevity</div>
+        <p class="value-text">Every look is built to last your full celebration â€” morning ceremony to midnight reception.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">â‹</span>
+        <div class="value-title">Cruelty-Free</div>
+        <p class="value-text">We use only certified cruelty-free and skin-safe products. Your glow should never cost the earth.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">â—‡</span>
+        <div class="value-title">Your Vision</div>
+        <p class="value-text">We listen before we create. Your reference, your comfort, your final call â€” always.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-section">
+    <span class="section-eyebrow">Our Artists</span>
+    <h2 class="section-title">Meet the <em>Team</em></h2>
+    <div class="section-line"></div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-photo" style="position:relative;">
+          <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+            <div class="ph-inner"><span class="ph-icon">ðŸ‘©</span><div class="ph-label">Lead Artist</div><div class="ph-sub">[ Add Photo ]</div></div>
+          </div>
+        </div>
+        <div style="padding:2rem;">
+        <h3 class="team-name">Lead Artist</h3>
+        <span class="team-role">Bridal & HD Specialist</span>
+        <p class="team-bio">Certified in HD and airbrush techniques, with expertise in Indian bridal looks across all ceremony types.</p>
+          </div>
+        </div>
+      <div class="team-card">
+        <div class="team-photo" style="position:relative;">
+          <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+            <div class="ph-inner"><span class="ph-icon">ðŸ‘©</span><div class="ph-label">Senior Artist</div><div class="ph-sub">[ Add Photo ]</div></div>
+          </div>
+        </div>
+        <div style="padding:2rem;">
+        <h3 class="team-name">Senior Artist</h3>
+        <span class="team-role">Editorial & Fashion</span>
+        <p class="team-bio">Specialises in editorial and high-fashion looks, working closely with the Vogue Productions shoot team.</p>
+          </div>
+        </div>
+      <div class="team-card">
+        <div class="team-photo" style="position:relative;">
+          <div class="ph-box" style="position:absolute;inset:0;aspect-ratio:unset;border:none;">
+            <div class="ph-inner"><span class="ph-icon">ðŸ‘©</span><div class="ph-label">Artist</div><div class="ph-sub">[ Add Photo ]</div></div>
+          </div>
+        </div>
+        <div style="padding:2rem;">
+        <h3 class="team-name">Artist</h3>
+        <span class="team-role">Party & Function Looks</span>
+        <p class="team-bio">Your go-to for family packages, party glam, and sangeet night looks that last all evening.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• CAREERS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="page" id="page-careers">
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• BANNER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="c-banner">
+  <div class="c-banner-grid"></div>
+  <div class="c-banner-overlay"></div>
+  <div class="c-banner-content">
+    <span class="eyebrow">Join Our Studio</span>
+    <h1>Build Your Career <em>Here</em></h1>
+    <p>Be part of Agra's most premium beauty brand. We grow our artists.</p>
+  </div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• JOB OPENINGS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="c-openings">
+  <span class="eyebrow">Open Positions</span>
+  <h2 class="c-openings-title">Current <em>Openings</em></h2>
+
+  <div class="opening-cards">
+
+    <div class="oc" onclick="pickRole('internship','Makeup Artist Intern')">
+      <div class="oc-left">
+        <div class="oc-title">Makeup Artist Intern</div>
+        <div class="oc-meta">
+          <span class="oc-tag">Agra Studio</span>
+          <span class="oc-tag">Freshers Welcome</span>
+          <span class="oc-tag">Stipend + Training</span>
+        </div>
+        <p class="oc-desc">Work alongside senior artists on real bridal bookings and shoots from day one. Leave with a professional portfolio and an industry reference.</p>
+      </div>
+      <span class="oc-badge">Internship Â· 3â€“6 Months</span>
+      <button class="oc-btn" onclick="pickRole('internship','Makeup Artist Intern')">Apply â†’</button>
+    </div>
+
+    <div class="oc" onclick="pickRole('interview','Bridal Makeup Artist')">
+      <div class="oc-left">
+        <div class="oc-title">Bridal Makeup Artist</div>
+        <div class="oc-meta">
+          <span class="oc-tag">Agra Studio</span>
+          <span class="oc-tag">1+ Year Experience</span>
+          <span class="oc-tag">â‚¹15,000â€“â‚¹35,000/mo</span>
+        </div>
+        <p class="oc-desc">Core team bridal and HD artist handling trials, function looks, and in-home bookings across Agra. Airbrush knowledge is a strong plus.</p>
+      </div>
+      <span class="oc-badge">Full-Time</span>
+      <button class="oc-btn" onclick="pickRole('interview','Bridal Makeup Artist')">Apply â†’</button>
+    </div>
+
+    <div class="oc" onclick="pickRole('interview','Studio Coordinator')">
+      <div class="oc-left">
+        <div class="oc-title">Studio Coordinator</div>
+        <div class="oc-meta">
+          <span class="oc-tag">Agra Studio</span>
+          <span class="oc-tag">Social Media Savvy</span>
+          <span class="oc-tag">â‚¹8,000â€“â‚¹15,000/mo</span>
+        </div>
+        <p class="oc-desc">Handle client appointments, WhatsApp enquiries, Instagram DMs, and studio scheduling. This is the face-of-studio role.</p>
+      </div>
+      <span class="oc-badge">Part-Time</span>
+      <button class="oc-btn" onclick="pickRole('interview','Studio Coordinator')">Apply â†’</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="gold-div" style="max-width:1000px;margin:2rem auto;"></div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• APPLICATION FORMS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="c-apply" id="apply-section">
+
+  <h2 class="c-apply-title">Submit Your <em>Application</em></h2>
+
+  <!-- TAB SWITCHER -->
+  <div class="tabs">
+    <button class="tab-btn active" id="tab-internship" onclick="switchTab('internship')">
+      <span class="tab-icon">ðŸŽ“</span>
+      <span class="tab-name">Internship</span>
+      <span class="tab-sub">3â€“6 months Â· Stipend + Training</span>
+    </button>
+    <button class="tab-btn" id="tab-interview" onclick="switchTab('interview')">
+      <span class="tab-icon">ðŸ’¼</span>
+      <span class="tab-name">Job Interview</span>
+      <span class="tab-sub">Full-time or Part-time</span>
+    </button>
+  </div>
+
+  <!-- STATUS BOX (shared) -->
+  <div id="status-box" style="display:none;"></div>
+
+  <!-- â•â•â•â•â•â• INTERNSHIP FORM â•â•â•â•â•â• -->
+  <div class="form-panel active" id="panel-internship">
+    <div class="form-header">
+      <span class="form-header-badge">ðŸŽ“ Internship Application â€” Vogue Makeovers Agra</span>
+      <p>Fields marked * are required. Your data goes directly to our studio team only.</p>
+    </div>
+
+    <form id="form-internship" onsubmit="handleSubmit(event,'internship')">
+
+      <div class="fblock-title">Personal Details</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Full Name *</label>
+          <input class="finput" name="fullName" type="text" required placeholder="Your full name">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Date of Birth *</label>
+          <input class="finput" name="dob" type="date" required>
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">WhatsApp Number *</label>
+          <input class="finput" name="phone" type="tel" required placeholder="+91 XXXXXXXXXX">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Email Address *</label>
+          <input class="finput" name="email" type="email" required placeholder="you@email.com">
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">City / Location *</label>
+          <input class="finput" name="location" type="text" required placeholder="Agra / City, State">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Gender</label>
+          <select class="fselect" name="gender">
+            <option value="">Select</option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fblock-title">Education & Training</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Highest Qualification *</label>
+          <select class="fselect" name="qualification" required>
+            <option value="">Select</option>
+            <option>10th Pass</option>
+            <option>12th Pass</option>
+            <option>Diploma / Certificate</option>
+            <option>Graduate</option>
+            <option>Postgraduate</option>
+          </select>
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Makeup Training? *</label>
+          <select class="fselect" name="training" required>
+            <option value="">Select</option>
+            <option>Yes â€” certified course (VLCC, Lakme, etc.)</option>
+            <option>Yes â€” short workshop</option>
+            <option>Self-taught only</option>
+            <option>No formal training yet</option>
+          </select>
+        </div>
+      </div>
+      <div class="fgroup">
+        <label class="flabel">Training Institute Name (if any)</label>
+        <input class="finput" name="institute" type="text" placeholder="e.g. VLCC Agra, Lakme Academy Lucknow">
+      </div>
+
+      <div class="fblock-title">Internship Preferences</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Preferred Start Date *</label>
+          <input class="finput" name="startDate" type="date" required>
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Preferred Duration *</label>
+          <select class="fselect" name="duration" required>
+            <option value="">Select</option>
+            <option>1 month</option>
+            <option>3 months</option>
+            <option>6 months</option>
+            <option>Flexible / Open to discussion</option>
+          </select>
+        </div>
+      </div>
+      <div class="fgroup">
+        <label class="flabel">Areas of Interest</label>
+        <div class="chk-grid">
+          <label class="chk-item"><input type="checkbox" name="interest" value="Bridal Makeup"> Bridal Makeup</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="HD Makeup"> HD Makeup</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="Airbrush"> Airbrush</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="Hair Styling"> Hair Styling</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="Skin Care"> Skin Care</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="Editorial"> Editorial</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="Party & Events"> Party & Events</label>
+          <label class="chk-item"><input type="checkbox" name="interest" value="Not sure yet"> Not sure yet</label>
+        </div>
+      </div>
+
+      <div class="fblock-title">Portfolio & Online</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Instagram Handle</label>
+          <input class="finput" name="instagram" type="text" placeholder="@yourusername">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Portfolio Link (if any)</label>
+          <input class="finput" name="portfolio" type="url" placeholder="https://...">
+        </div>
+      </div>
+
+      <div class="fblock-title">About You</div>
+      <div class="fgroup">
+        <label class="flabel">Why do you want to intern at Vogue Makeovers? *</label>
+        <textarea class="ftextarea" name="whyUs" required placeholder="Tell us what excites you and what you hope to learn..."></textarea>
+      </div>
+      <div class="fgroup">
+        <label class="flabel">Any makeup work done so far? (personal or professional)</label>
+        <textarea class="ftextarea" name="priorWork" placeholder="Even experimenting on friends counts â€” tell us!"></textarea>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">How did you hear about us? *</label>
+          <select class="fselect" name="source" required>
+            <option value="">Select</option>
+            <option>Instagram</option>
+            <option>Google Search</option>
+            <option>WeddingWire / Shaadi</option>
+            <option>Friend / Word of mouth</option>
+            <option>WhatsApp</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Can you come for an in-person interview in Agra? *</label>
+          <select class="fselect" name="interviewAvail" required>
+            <option value="">Select</option>
+            <option>Yes â€” I can come to the studio</option>
+            <option>Yes â€” need a few days notice</option>
+            <option>Video call preferred first</option>
+            <option>I am outside Agra</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="fsubmit" id="btn-internship">
+        <span class="fspinner"></span>
+        <span class="fbtn-text">Submit Internship Application</span>
+      </button>
+    </form>
+  </div>
+
+  <!-- â•â•â•â•â•â• JOB INTERVIEW FORM â•â•â•â•â•â• -->
+  <div class="form-panel" id="panel-interview">
+    <div class="form-header">
+      <span class="form-header-badge">ðŸ’¼ Job Interview Application â€” Vogue Makeovers Agra</span>
+      <p>Fields marked * are required. Your data goes directly to our studio team only.</p>
+    </div>
+
+    <form id="form-interview" onsubmit="handleSubmit(event,'interview')">
+
+      <div class="fblock-title">Personal Details</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Full Name *</label>
+          <input class="finput" name="fullName" type="text" required placeholder="Your full name">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Date of Birth</label>
+          <input class="finput" name="dob" type="date">
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">WhatsApp Number *</label>
+          <input class="finput" name="phone" type="tel" required placeholder="+91 XXXXXXXXXX">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Email Address *</label>
+          <input class="finput" name="email" type="email" required placeholder="you@email.com">
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">City / Location *</label>
+          <input class="finput" name="location" type="text" required placeholder="Agra / City, State">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Gender</label>
+          <select class="fselect" name="gender">
+            <option value="">Select</option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fblock-title">Role & Experience</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Role Applying For *</label>
+          <select class="fselect" name="role" id="interview-role" required>
+            <option value="">Select role</option>
+            <option>Bridal Makeup Artist (Full-Time)</option>
+            <option>Senior Makeup Artist</option>
+            <option>Studio Coordinator (Part-Time)</option>
+            <option>Freelance Artist (Per-Project)</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Years of Experience *</label>
+          <select class="fselect" name="experience" required>
+            <option value="">Select</option>
+            <option>Less than 6 months</option>
+            <option>6 months â€“ 1 year</option>
+            <option>1â€“2 years</option>
+            <option>2â€“4 years</option>
+            <option>4â€“6 years</option>
+            <option>6+ years</option>
+          </select>
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Current / Last Employer</label>
+          <input class="finput" name="employer" type="text" placeholder="Studio / Salon name or Freelance">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Expected Monthly Salary *</label>
+          <select class="fselect" name="salary" required>
+            <option value="">Select</option>
+            <option>Under â‚¹10,000</option>
+            <option>â‚¹10,000â€“â‚¹15,000</option>
+            <option>â‚¹15,000â€“â‚¹25,000</option>
+            <option>â‚¹25,000â€“â‚¹40,000</option>
+            <option>â‚¹40,000+</option>
+            <option>Open to discussion</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fblock-title">Skills & Specialisations</div>
+      <div class="fgroup">
+        <label class="flabel">Your Specialisations *</label>
+        <div class="chk-grid">
+          <label class="chk-item"><input type="checkbox" name="skills" value="HD Makeup"> HD Makeup</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Airbrush"> Airbrush</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Bridal Makeup"> Bridal Makeup</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Party / Reception"> Party / Reception</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Editorial / Fashion"> Editorial</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Hair Styling"> Hair Styling</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Saree Draping"> Saree Draping</label>
+          <label class="chk-item"><input type="checkbox" name="skills" value="Skin Care"> Skin Care</label>
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Products You Work With *</label>
+          <input class="finput" name="products" type="text" required placeholder="e.g. MAC, Huda Beauty, Kryolan...">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Approx. Bridal Clients Done</label>
+          <select class="fselect" name="bridalCount">
+            <option value="">Select</option>
+            <option>None yet</option>
+            <option>1â€“5</option>
+            <option>5â€“15</option>
+            <option>15â€“30</option>
+            <option>30â€“60</option>
+            <option>60+</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fblock-title">Certification & Logistics</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Makeup Certification *</label>
+          <select class="fselect" name="certification" required>
+            <option value="">Select</option>
+            <option>VLCC</option>
+            <option>Lakme Academy</option>
+            <option>BBLUNT Academy</option>
+            <option>Meenakshi Dutt Makeovers</option>
+            <option>Pearl Academy</option>
+            <option>Other accredited institute</option>
+            <option>Self-taught / No formal cert</option>
+          </select>
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Can you travel within Agra? *</label>
+          <select class="fselect" name="travel" required>
+            <option value="">Select</option>
+            <option>Yes â€” own vehicle</option>
+            <option>Yes â€” by auto / cab</option>
+            <option>Within 10km only</option>
+            <option>Studio only preferred</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fblock-title">Portfolio & Online</div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Instagram Handle *</label>
+          <input class="finput" name="instagram" type="text" required placeholder="@yourusername">
+        </div>
+        <div class="fgroup">
+          <label class="flabel">Portfolio / Website Link</label>
+          <input class="finput" name="portfolio" type="url" placeholder="https://...">
+        </div>
+      </div>
+
+      <div class="fblock-title">Cover Note</div>
+      <div class="fgroup">
+        <label class="flabel">Why do you want to work at Vogue Makeovers? *</label>
+        <textarea class="ftextarea" name="whyUs" required placeholder="Your passion, what makes your work special, and why Vogue Makeovers..."></textarea>
+      </div>
+      <div class="fgroup">
+        <label class="flabel">Describe your most memorable client transformation</label>
+        <textarea class="ftextarea" name="transformation" placeholder="Walk us through a look you are proud of â€” the brief, what you did, how the client reacted..."></textarea>
+      </div>
+      <div class="frow">
+        <div class="fgroup">
+          <label class="flabel">Earliest Joining Date *</label>
+          <input class="finput" name="joinDate" type="date" required>
+        </div>
+        <div class="fgroup">
+          <label class="flabel">How did you hear about us? *</label>
+          <select class="fselect" name="source" required>
+            <option value="">Select</option>
+            <option>Instagram</option>
+            <option>Google Search</option>
+            <option>WeddingWire / Shaadi</option>
+            <option>Friend / Referral</option>
+            <option>WhatsApp</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="fsubmit" id="btn-interview">
+        <span class="fspinner"></span>
+        <span class="fbtn-text">Submit Job Application</span>
+      </button>
+    </form>
+  </div>
+
+</div>
+
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• WHY JOIN â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="why-join">
+  <div class="why-join-inner">
+    <span class="eyebrow">Why Join Us</span>
+    <h2 style="font-family:var(--fd);font-size:clamp(1.8rem,3vw,2.8rem);font-weight:300;color:var(--cream);margin-bottom:0;">We Invest in <em style="font-style:italic;color:var(--gold);">Our Artists</em></h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-card-icon">âœ¦</span>
+        <div class="why-card-title">Paid Training</div>
+        <p class="why-card-text">Ongoing workshops in HD, airbrush, and trending looks â€” all covered by the studio.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-card-icon">â—ˆ</span>
+        <div class="why-card-title">Real Portfolio</div>
+        <p class="why-card-text">Work on real bridal shoots and editorial projects with Vogue Productions photographers.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-card-icon">â‹</span>
+        <div class="why-card-title">Grow With Us</div>
+        <p class="why-card-text">As Vogue Makeovers expands across UP, so does your career and earning potential.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="page" id="page-contact">
+  
+  <div class="inner-banner">
+    <div class="inner-banner-bg"></div>
+    <div class="inner-banner-grid"></div>
+    <div class="inner-banner-overlay"></div>
+    <div class="inner-banner-content">
+      <span class="section-eyebrow">Get in Touch</span>
+      <h1 class="section-title">Book Your <em>Makeover</em></h1>
+      <p>A free consultation is just one message away.</p>
+    </div>
+  </div>
+
+<div class="contact-hero">
+    <div class="contact-info">
+      <span class="section-eyebrow">Get in Touch</span>
+      <h1>Book Your <em>Makeover</em></h1>
+      <div class="section-line"></div>
+      <p>Whether you're a bride planning your wedding look, an individual booking a party glam session, or someone curious about our packages â€” we'd love to hear from you.</p>
+
+      <a class="whatsapp-strip" href="https://wa.me/918453220257?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20makeover%20at%20Vogue%20Makeovers%20Agra.%20Could%20you%20please%20share%20your%20availability%20and%20packages%3F" target="_blank">
+        <span class="wa-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" focusable="false">
+            <path d="M16.04 3C8.86 3 3.02 8.75 3.02 15.82c0 2.26.6 4.47 1.74 6.42L3 29l6.96-1.8a13.2 13.2 0 0 0 6.08 1.51c7.18 0 13.02-5.75 13.02-12.82C29.06 8.75 23.22 3 16.04 3Zm0 23.55c-1.92 0-3.8-.51-5.45-1.48l-.39-.23-4.13 1.07 1.1-3.93-.26-.4a10.36 10.36 0 0 1-1.62-5.56c0-5.88 4.85-10.66 10.75-10.66 5.93 0 10.75 4.78 10.75 10.66 0 5.87-4.82 10.63-10.75 10.63Zm5.9-7.96c-.32-.16-1.9-.92-2.2-1.02-.29-.11-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.18.21-.37.24-.69.08-.32-.16-1.35-.49-2.57-1.56-.95-.84-1.59-1.88-1.78-2.19-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.55.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.55-.08-.16-.71-1.68-.98-2.3-.26-.6-.52-.52-.71-.53h-.61c-.21 0-.55.08-.84.4-.29.31-1.1 1.05-1.1 2.57 0 1.51 1.13 2.98 1.29 3.19.16.21 2.22 3.33 5.38 4.67.75.32 1.34.51 1.8.65.76.24 1.45.2 1.99.12.61-.09 1.9-.76 2.17-1.49.27-.73.27-1.36.19-1.49-.08-.13-.29-.21-.61-.37Z"/>
+          </svg>
+        </span>
+        <div class="wa-text">
+          <strong>WhatsApp Us Directly</strong>
+          <span>Fastest response â€” usually within 30 minutes</span>
+        </div>
+      </a>
+
+      <ul class="contact-details">
+        <li>
+          <span class="ci-label">Studio</span>
+          <span class="ci-value">Vogue Makeovers, Dayal Bagh,Agra<br>Uttar Pradesh, India</span>
+        </li>
+        <li>
+          <span class="ci-label">Phone</span>
+          <span class="ci-value"><a href="tel:+918453220257">+91 8433220257</a></span>
+        </li>
+        <li>
+          <span class="ci-label">Email</span>
+          <span class="ci-value"><a href="mailto:hello@vogue-makeovers.in">hello@vogue-makeovers.in</a></span>
+        </li>
+        <li>
+          <span class="ci-label">Hours</span>
+          <span class="ci-value">Monday â€“ Saturday<br>8:00 AM â€“ 8:00 PM<br><span style="color:var(--gold); font-size:0.8rem;">Sunday bookings available on request</span></span>
+        </li>
+        <li>
+          <span class="ci-label">Instagram</span>
+          <span class="ci-value"><a href="https://instagram.com/voguemakeovers_agra" target="_blank">@vogue_makeovers</a></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact-form">
+      <h2>Send an <em style="font-family:var(--font-display); font-style:italic; color:var(--gold);">Enquiry</em></h2>
+      <div id="contactSuccess" class="form-success" style="margin-bottom:2rem;">
+        <h3>Enquiry Received âœ¦</h3>
+        <p>Thank you! We will reach out to you within 24 hours. Or WhatsApp us for a faster response.</p>
+      </div>
+      <form id="contactForm" onsubmit="submitContact(event)">
+        <div class="form-group">
+          <label class="form-label">Your Name *</label>
+          <input class="form-input" type="text" required placeholder="Full name">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">WhatsApp Number *</label>
+            <input class="form-input" type="tel" required placeholder="+91 XXXXXXXXXX">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Service Interested In</label>
+            <select class="form-select">
+              <option value="" disabled selected>Select service</option>
+              <option>Bridal Makeover</option>
+              <option>Airbrush Bridal</option>
+              <option>Pre-Bridal Package</option>
+              <option>Party & Reception</option>
+              <option>Editorial / Shoot</option>
+              <option>Destination Bridal</option>
+              <option>Family Package</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Wedding / Event Date</label>
+            <input class="form-input" type="date">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Your Location</label>
+            <input class="form-input" type="text" placeholder="Agra / City name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Budget Range</label>
+          <select class="form-select">
+            <option value="" disabled selected>Select budget range</option>
+            <option>Under â‚¹5,000</option>
+            <option>â‚¹5,000 â€“ â‚¹12,000</option>
+            <option>â‚¹12,000 â€“ â‚¹25,000</option>
+            <option>â‚¹25,000 â€“ â‚¹50,000</option>
+            <option>â‚¹50,000+</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-textarea" placeholder="Tell us about your event, the look you have in mind, or any questions you have..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• FOOTER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo" style="display:inline-block; margin-bottom:0.25rem;">Vogue Makeovers<span>Agra's Luxury Makeup Studio</span></div>
+        <p>Premium bridal and makeover services in Agra, Uttar Pradesh. Crafting looks that are remembered long after the celebration ends.</p>
+        <p style="margin-top:1rem; font-size:0.72rem;">A Vogue Productions Studio<br>vogue-productions.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a onclick="showPage('services')">Bridal Makeover</a></li>
+          <li><a onclick="showPage('services')">Airbrush Bridal</a></li>
+          <li><a onclick="showPage('services')">Pre-Bridal Package</a></li>
+          <li><a onclick="showPage('services')">Party Glam</a></li>
+          <li><a onclick="showPage('services')">Editorial Looks</a></li>
+          <li><a onclick="showPage('services')">Destination Bridal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a onclick="showPage('about')">About Us</a></li>
+          <li><a onclick="showPage('portfolio')">Portfolio</a></li>
+          <li><a onclick="showPage('blog')">Beauty Blog</a></li>
+          <li><a onclick="showPage('careers')">Careers</a></li>
+          <li><a onclick="showPage('careers')">Internships</a></li>
+          <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+918453220257">+91 8433220257</a></li>
+          <li><a href="mailto:hello@vogue-makeovers.in">hello@vogue-producitons.com </a></li>
+          <li><a href="https://wa.me/918453220257" target="_blank">WhatsApp Us</a></li>
+          <li><a href="https://instagram.com/voguemakeovers_agra" target="_blank">Instagram</a></li>
+          <li style="margin-top:1rem; color:var(--dark-3); font-size:0.72rem;"> Dayal Bagh,Agra, Uttar Pradesh<br>India â€” 282001</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Â© 2026 Vogue Makeovers, Agra. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms</a></p>
+      <div class="social-links">
+        <a href="https://instagram.com/voguemakeovers_agra" target="_blank">Instagram</a>
+        <a href="https://wa.me/918453220257" target="_blank">WhatsApp</a>
+        <a href="https://vogue-productions.com" target="_blank">Vogue Productions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="wa-float" href="https://wa.me/918453220257?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20makeover%20at%20Vogue%20Makeovers%20Agra." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+    <path d="M16.04 3C8.86 3 3.02 8.75 3.02 15.82c0 2.26.6 4.47 1.74 6.42L3 29l6.96-1.8a13.2 13.2 0 0 0 6.08 1.51c7.18 0 13.02-5.75 13.02-12.82C29.06 8.75 23.22 3 16.04 3Zm0 23.55c-1.92 0-3.8-.51-5.45-1.48l-.39-.23-4.13 1.07 1.1-3.93-.26-.4a10.36 10.36 0 0 1-1.62-5.56c0-5.88 4.85-10.66 10.75-10.66 5.93 0 10.75 4.78 10.75 10.66 0 5.87-4.82 10.63-10.75 10.63Zm5.9-7.96c-.32-.16-1.9-.92-2.2-1.02-.29-.11-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.18.21-.37.24-.69.08-.32-.16-1.35-.49-2.57-1.56-.95-.84-1.59-1.88-1.78-2.19-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.55.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.55-.08-.16-.71-1.68-.98-2.3-.26-.6-.52-.52-.71-.53h-.61c-.21 0-.55.08-.84.4-.29.31-1.1 1.05-1.1 2.57 0 1.51 1.13 2.98 1.29 3.19.16.21 2.22 3.33 5.38 4.67.75.32 1.34.51 1.8.65.76.24 1.45.2 1.99.12.61-.09 1.9-.76 2.17-1.49.27-.73.27-1.36.19-1.49-.08-.13-.29-.21-.61-.37Z"/>
+  </svg>
+</a>
+
+<script>
+// â”€â”€ BLOG DATA â”€â”€
+const blogs = [
+  {
+    id: 1, cat: 'Bridal Trends',
+    title: 'Bridal Makeup Trends 2025 â€” What Agra Brides Are Choosing This Season',
+    excerpt: 'From natural dewy skin to bold statement eyes â€” here\'s exactly what brides in Agra are booking for the 2025 wedding season.',
+    date: 'June 2025', readtime: '6 min read',
+    body: `
+      <h2>The 2025 Bridal Look: Natural, Glowing, and Deeply Personal</h2>
+      <p>Across every booking at Vogue Makeovers this season, we're seeing a clear and beautiful shift: Agra's brides no longer want to look <em>done</em>. They want to look <em>radiant</em>. The heavy, cakey bridal looks of a decade ago are giving way to something far more timeless â€” skin that breathes, eyes that speak, and a face that looks like the best version of you.</p>
+      <p>Here are the top 2025 bridal makeup trends we're seeing in our Agra studio every week.</p>
+      <h3>1. Skin-First Bridal (The Dewy Skin Revolution)</h3>
+      <p>Brides are now investing more in pre-bridal skincare than in the makeup itself â€” and it shows. The modern bridal look starts with a plumped, hydrated, glowing base. Think light-coverage foundation, strategic concealing, and a finish that looks like glass under outdoor Agra light. We blend serums, primers, and skin-tint foundations to build a base that photographs like a dream.</p>
+      <h3>2. Soft Glam Eyes</h3>
+      <p>Heavy black kajal-heavy looks are being replaced by warm browns, champagnes, and terracotta shades on the lids. Brides want definition, depth, and elegance â€” not drama. The cut crease is evolving into a soft-blended wash of colour that suits the softer light of morning ceremonies perfectly.</p>
+      <h3>3. Bold Lips are Back (But Smarter)</h3>
+      <p>Red lips for receptions. Berry tones for sangeet nights. Nude-rose for the morning ceremony. Agra's brides are thinking about each look separately â€” and using their lip colour to transition between functions without changing the entire face.</p>
+      <h3>4. HD Makeup for Outdoor Weddings Near the Taj</h3>
+      <p>Destination brides choosing outdoor settings near the Taj Mahal are booking HD airbrush makeup specifically because of its weightless feel and photograph-perfect finish in natural light. This is our most-booked upgrade for summer 2025.</p>
+      <h3>5. Coordinated Family Looks</h3>
+      <p>It's no longer just about the bride. In 2025, brides are booking full family makeover packages so that every woman in the wedding frame looks equally radiant. The mother of the bride, bridesmaids, and bua-ji â€” everyone deserves a flawless moment.</p>
+      <div class="blog-cta-box">
+        <h3>Book Your 2025 Bridal Trial</h3>
+        <p>Not sure which trend suits you? Come in for a complimentary consultation and we'll map out the perfect 2025 look for your face, your function, and your vision.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Book a Free Trial</a>
+      </div>
+    `
+  },
+  {
+    id: 2, cat: 'HD vs Airbrush',
+    title: 'HD vs Airbrush Makeup â€” Which is Best for Your Agra Wedding?',
+    excerpt: 'The age-old question every bride asks us. Here\'s the honest, no-jargon breakdown â€” including which finish we recommend for Agra\'s outdoor venues.',
+    date: 'May 2025', readtime: '5 min read',
+    body: `
+      <h2>The Two Finishes Agra Brides Ask About Most</h2>
+      <p>At Vogue Makeovers, we get this question every single day: <em>"Should I go for HD or airbrush for my wedding?"</em> The honest answer depends on your venue, your skin type, your wedding timing, and your budget. Here's a full, no-jargon breakdown so you can make the right choice.</p>
+      <h3>What is HD Makeup?</h3>
+      <p>HD makeup (High Definition makeup) uses finely-milled, micro-pigmented products that are specifically formulated to look flawless under high-definition cameras and close-up photography. It creates a smooth, semi-matte to luminous finish that hides pores and imperfections without feeling heavy. Most of the bridal looks you see on WedMeGood and Instagram from Indian weddings are HD.</p>
+      <h3>What is Airbrush Makeup?</h3>
+      <p>Airbrush makeup is applied using a compressed air gun that sprays an ultra-fine mist of foundation and colour directly onto the skin. The result is an impossibly smooth, almost second-skin finish that is water-resistant, sweat-proof, and extremely long-lasting. It feels lighter than HD but gives the most flawless coverage possible.</p>
+      <h3>Our Honest Comparison for Agra Brides</h3>
+      <p><strong>Longevity:</strong> Airbrush wins here. In Agra's summer heat, an airbrush finish will outlast HD by 2â€“3 hours on average. For Julyâ€“September weddings, airbrush is almost always our recommendation.</p>
+      <p><strong>Feel on skin:</strong> Airbrush wins again. If you're someone who hates the feeling of makeup on your face, airbrush will feel closest to wearing nothing at all.</p>
+      <p><strong>Photography:</strong> Both are equally beautiful in photos. HD looks stunning in golden-hour outdoor light; airbrush is exceptional for close-up and flash photography.</p>
+      <p><strong>Price:</strong> HD starts at â‚¹12,000 with us. Airbrush starts at â‚¹18,000. The premium reflects the equipment, training, and formula cost â€” and most brides who choose airbrush say it's worth every rupee.</p>
+      <p><strong>Versatility:</strong> HD can be adjusted and touched up during the day more easily. Airbrush is better left as-is since touch-ups require the gun system.</p>
+      <h3>Our Recommendation for Agra Weddings</h3>
+      <p>For morning ceremonies with an outdoor component â€” especially near the Taj Mahal â€” we almost always recommend airbrush. For indoor banquet weddings with air conditioning, HD gives a slightly warmer, more traditional bridal finish that many clients prefer.</p>
+      <div class="blog-cta-box">
+        <h3>Not Sure? Book a Trial for Both</h3>
+        <p>During your bridal trial session, we can test both finishes on half your face so you can see exactly how each looks in your venue's light. No guesswork.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Book a Trial Session</a>
+      </div>
+    `
+  },
+  {
+    id: 3, cat: 'Local Guide',
+    title: 'Top 10 Makeup Artists in Agra â€” A Complete 2025 Guide',
+    excerpt: 'Planning your wedding look in Agra? Here\'s the most comprehensive, honest guide to finding the best makeup artist in the city.',
+    date: 'April 2025', readtime: '8 min read',
+    body: `
+      <h2>Finding the Right Makeup Artist in Agra</h2>
+      <p>Agra is a city of heritage, beauty, and some of the most stunning destination weddings in North India. And yet, finding a high-quality, professional makeup artist in Agra has historically been harder than it should be. Most artists are excellent at their craft, but lack the full studio infrastructure, premium products, and photography-specific training that modern brides expect.</p>
+      <p>This guide will walk you through what to look for, what questions to ask, and what Agra's bridal makeup landscape looks like in 2025.</p>
+      <h3>What Makes a Great Bridal Makeup Artist?</h3>
+      <p>Before you search by name or Instagram, here are the five qualities every great bridal artist shares:</p>
+      <ul>
+        <li><strong>Trial sessions offered:</strong> Never book a bridal artist without a trial. A trial lets you test the look, the products, and the personality.</li>
+        <li><strong>Premium, cruelty-free products:</strong> Ask what brands they use. High-quality products like MAC, Huda Beauty, Kryolan, and Dinair are indicators of professionalism.</li>
+        <li><strong>Photography-specific training:</strong> Your makeup needs to look good not just in person but in photos. Artists who understand how HD cameras interact with foundation undertones are worth the premium.</li>
+        <li><strong>Portfolio with real clients:</strong> Avoid artists who only show celebrity inspiration or edited AI images. Look for real client before-and-afters.</li>
+        <li><strong>Reviews and references:</strong> Ask for at least two bride references you can speak to directly.</li>
+      </ul>
+      <h3>Questions to Ask Every Artist in Agra</h3>
+      <p>When you call or WhatsApp any makeup artist in Agra, ask these questions before booking:</p>
+      <ul>
+        <li>Do you offer a trial session, and is it included in the price?</li>
+        <li>What brands and products do you use?</li>
+        <li>Do you travel to the venue, or is it studio-only?</li>
+        <li>How many functions are covered in your bridal package?</li>
+        <li>What happens if you fall ill on the day?</li>
+      </ul>
+      <h3>Why Vogue Makeovers Stands Apart in Agra</h3>
+      <p>We built Vogue Makeovers specifically to fill the gap that Agra's bridal market desperately needed: a full-service, premium, photography-integrated makeup studio that brings the quality of Delhi NCR to Agra's brides â€” at honest Agra prices.</p>
+      <p>Our partnership with Vogue Productions means your makeup was designed alongside your photography â€” so nothing is left to chance between the brush and the lens.</p>
+      <div class="blog-cta-box">
+        <h3>Ready to Book Your Consultation?</h3>
+        <p>Speak to our lead artist and get a personalised bridal plan â€” complimentary, no obligation.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Book Free Consultation</a>
+      </div>
+    `
+  },
+  {
+    id: 4, cat: 'Skin & Beauty',
+    title: 'Pre-Bridal Skincare Routine â€” 30 Days to Glowing Skin Before Your Wedding',
+    excerpt: 'The secret to stunning bridal makeup? It starts 30 days before with your skin. Here is our studio\'s complete pre-bridal skincare timeline.',
+    date: 'March 2025', readtime: '7 min read',
+    body: `
+      <h2>Your 30-Day Pre-Bridal Glow Plan</h2>
+      <p>At Vogue Makeovers, we always tell our brides: the best makeup in the world can only do so much. The real magic happens in the 30 days before your wedding, when the right skincare routine transforms your canvas. A well-prepped skin takes foundation better, holds moisture longer, and glows from within â€” even before a single brush touches your face.</p>
+      <p>Here is our complete, tested, 30-day pre-bridal skincare protocol that we give every Vogue Makeovers bride.</p>
+      <h3>Week 1 â€” Diagnose and Detox</h3>
+      <p>Start with a skin analysis (we offer this as part of our pre-bridal package). Understand your skin type â€” oily, dry, combination, or sensitive â€” because every step forward depends on this. This week, cut sugar, alcohol, and processed food significantly. Start drinking 2â€“3 litres of water daily. Begin a gentle double-cleanse routine morning and night using a sulfate-free cleanser.</p>
+      <h3>Week 2 â€” Treat and Target</h3>
+      <p>This is the week to introduce actives: a Vitamin C serum in the morning for brightness, and a niacinamide or retinol product at night (for first-timers, start with 0.3% retinol). Book your first professional facial this week â€” a hydrating or de-tan facial works well as your baseline treatment in Agra's climate.</p>
+      <h3>Week 3 â€” Hydrate and Plump</h3>
+      <p>Switch your focus entirely to hydration. Layer a hyaluronic acid serum under your moisturiser twice daily. Consider a hydrating sheet mask 3 times this week. Book your second facial â€” a brightening or gold facial gives excellent results at this stage. Avoid harsh scrubs or new actives you haven't tested before.</p>
+      <h3>Week 4 â€” Lock and Prepare</h3>
+      <p>This is maintenance week. Keep your routine consistent and gentle. No new products. No peels. No threading or waxing closer than 3 days before the wedding. Focus on sleep â€” 7â€“8 hours minimum â€” because no skincare product can replace it. Book your third and final facial 5â€“7 days before the wedding.</p>
+      <h3>The Morning Of: Prep Before Makeup</h3>
+      <p>On your wedding morning, do not wash your face with anything harsh. Use a gentle micellar water, apply your hyaluronic acid serum, and let your skin breathe for 20 minutes before the makeup artist begins. Cold compresses around the eyes help with any puffiness from an emotional night before.</p>
+      <div class="blog-cta-box">
+        <h3>Book Our Pre-Bridal Package</h3>
+        <p>Our pre-bridal package includes 4 professional facial sessions, a full skincare plan, and all your function makeup from mehndi to reception.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Explore the Package</a>
+      </div>
+    `
+  },
+  {
+    id: 5, cat: 'Career & Training',
+    title: 'How to Become a Professional Makeup Artist in India â€” 2025 Guide',
+    excerpt: 'Passionate about makeup? Here\'s everything you need to know about building a real career as a professional MUA in India â€” from training to your first bridal booking.',
+    date: 'February 2025', readtime: '9 min read',
+    body: `
+      <h2>Turning Your Passion Into a Profession</h2>
+      <p>The Indian makeup industry is booming. With millions of weddings per year, a growing fashion scene, and an increasingly image-conscious population, professional makeup artists are in higher demand than ever. And unlike many creative careers, makeup artistry has a clear, structured path from interest to income â€” if you approach it correctly.</p>
+      <p>At Vogue Makeovers Agra, we've hired and trained numerous artists over the years. Here's the honest, complete guide we give everyone who asks us how to start.</p>
+      <h3>Step 1: Formal Training vs Self-Taught</h3>
+      <p>You do not need a formal certification to become a makeup artist in India â€” but it helps enormously. A structured course from a recognised institution (VLCC, BBLUNT Academy, Meenakshi Dutt Makeovers, Lakme Academy) gives you product knowledge, hygiene standards, and hands-on supervised practice that self-teaching rarely provides. If cost is a barrier, self-teaching via YouTube combined with assisting an experienced artist is a valid alternative.</p>
+      <h3>Step 2: Build a Portfolio (Before You Have Paying Clients)</h3>
+      <p>Your portfolio is everything. In the early days, offer free or heavily discounted sessions to friends, family, and models willing to be photographed. Shoot every look you create. Work with a photographer â€” even a phone camera in good natural light â€” to build before-and-after content. Your first 20 looks form the foundation of your brand.</p>
+      <h3>Step 3: Choose Your Niche</h3>
+      <p>Bridal, editorial, film/TV, party glam, or special effects â€” each niche has different demands, training needs, and income potential. In cities like Agra, bridal and pre-bridal work is by far the most consistent and high-paying niche. Specialis early; diversify later.</p>
+      <h3>Step 4: Assist Before You Lead</h3>
+      <p>The fastest path to becoming a great bridal artist is assisting an established one for 1â€“2 years. You watch, you learn, you carry the kit, and you absorb techniques that no course teaches. At Vogue Makeovers, our internship programme is designed specifically to accelerate this learning curve â€” with real bridal bookings from month one.</p>
+      <h3>Step 5: Build Your Brand on Instagram</h3>
+      <p>In 2025, Instagram is your portfolio, your business card, and your lead generation channel â€” all in one. Post consistently. Show before-and-afters. Tag your location as Agra on every post. Use relevant hashtags like #bridalmakeupagra and #makeupagra. It takes 6â€“12 months of consistent posting to see meaningful follower growth, but the results compound over time.</p>
+      <div class="blog-cta-box">
+        <h3>Intern at Vogue Makeovers</h3>
+        <p>We are accepting internship applications for our Agra studio. Get trained by working professionals on real clients and real shoots.</p>
+        <a class="btn-primary" href="#" onclick="showPage('careers')">View Internship Details</a>
+      </div>
+    `
+  },
+  {
+    id: 6, cat: 'Wedding Guide',
+    title: 'Mehndi, Sangeet, and Reception â€” Makeup for Every Wedding Function in Agra',
+    excerpt: 'Each function deserves its own look. Here\'s how we plan three distinct, coordinated makeup looks for every Agra bride\'s wedding weekend.',
+    date: 'January 2025', readtime: '6 min read',
+    body: `
+      <h2>Three Functions, Three Looks â€” One Unforgettable Weekend</h2>
+      <p>The modern Indian wedding is a multi-day affair, and Agra's brides â€” who often choose venues ranging from intimate family homes to sprawling destination resorts near the Taj â€” need three distinct, well-coordinated looks that transition beautifully between functions.</p>
+      <p>At Vogue Makeovers, we plan every bride's full function makeup as a unified trilogy: connected by a colour story, but each unique enough to stand on its own in the photographs.</p>
+      <h3>The Mehndi Look: Fresh, Floral, and Joyful</h3>
+      <p>Mehndi is the celebration of colour, warmth, and anticipation. The makeup here mirrors the mood: fresh skin, a peachy-coral blush, and minimal eye makeup that allows the henna to star. We often use a lit-from-within skin finish â€” think dewy glass skin with a subtle highlighter on the cheekbones. Lips in terracotta or warm nude. Hair adorned with fresh flowers or marigold elements.</p>
+      <h3>The Sangeet Look: Bold, Festive, and Dazzling</h3>
+      <p>Sangeet is your chance to take a creative risk. Here we go bold â€” a smokey eye in champagne and bronze, a cut crease with gold liner, or a soft glittery wash on the lids. The lip deepens to a raspberry or plum tone. This is the look that photographs magnificently under party lights and sets the tone for dancing until midnight.</p>
+      <h3>The Wedding Day Look: Timeless and Complete</h3>
+      <p>Your wedding day makeup is the pinnacle â€” it must photograph beautifully at 8 AM in morning light and still look flawless at midnight under banquet chandeliers. We build this look in layers: skin prep, HD or airbrush base, full bridal eye with lashes, a bindi-coordinated eye look, and a lip colour chosen to complement your lehenga. This is the look you'll see in your album fifty years from now.</p>
+      <div class="blog-cta-box">
+        <h3>Book Your Full Function Package</h3>
+        <p>Our pre-bridal package covers all three functions plus your skincare prep â€” all coordinated by one artist who knows your face.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Enquire About Full Packages</a>
+      </div>
+    `
+  },
+  {
+    id: 7, cat: 'Tips & Advice',
+    title: 'How to Choose Your Makeup Artist in Agra â€” 7 Things Every Bride Should Check',
+    excerpt: 'Choosing your bridal makeup artist is one of the biggest decisions of your wedding. Here\'s the exact checklist we tell every bride to follow.',
+    date: 'December 2024', readtime: '5 min read',
+    body: `
+      <h2>The 7-Point Makeup Artist Checklist for Agra Brides</h2>
+      <p>Your bridal makeup artist will spend more one-on-one time with you on your wedding morning than almost anyone else. Choosing the right one is not just about the look â€” it's about trust, expertise, and energy. Here are the seven things we recommend every Agra bride checks before signing a booking.</p>
+      <h3>1. View Their Actual Portfolio (Not Just Inspirations)</h3>
+      <p>Many artists share celebrity-inspired looks or AI-generated images on Instagram. Always ask to see their real portfolio â€” photographs from actual clients, ideally with before-and-after shots. Look for diversity in skin tones, face shapes, and makeup styles.</p>
+      <h3>2. Book a Trial Session</h3>
+      <p>Never book a bridal artist without a trial. A trial session lets you assess their technique, test their products on your skin, and see how the look wears over 6â€“8 hours. If an artist refuses to offer a trial, that's a red flag.</p>
+      <h3>3. Ask About Products and Hygiene</h3>
+      <p>Find out what brands they use and whether they sanitise their brushes between clients. Premium, cruelty-free products (MAC, Huda, Kryolan) indicate professional investment. Poor hygiene is a genuine skin health risk.</p>
+      <h3>4. Confirm Venue Travel Policy</h3>
+      <p>Will they come to your home or venue? At what time? Is there a travel fee? Many artists only do studio bookings, which adds stress to your wedding morning.</p>
+      <h3>5. Read Their Reviews</h3>
+      <p>Google reviews, WeddingWire ratings, and Instagram comments are all valuable. Ask for references from at least two past bridal clients you can speak to directly.</p>
+      <h3>6. Understand What's Included in the Package</h3>
+      <p>Is the trial included? How many functions? Is hair styling included or separate? Is there a touchup session available during the day? Get everything in writing before paying any advance.</p>
+      <h3>7. Trust Your Instinct About Personality</h3>
+      <p>Your makeup artist will be in your room at 5 or 6 AM on one of the most emotional mornings of your life. Choose someone whose energy calms you, not stresses you. The right artist makes the process feel like a joy, not a task.</p>
+      <div class="blog-cta-box">
+        <h3>Come Meet Us First</h3>
+        <p>We offer a completely free, no-obligation consultation at our Agra studio. Come in, meet the team, see the products, and decide without any pressure.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Book Free Consultation</a>
+      </div>
+    `
+  },
+  {
+    id: 8, cat: 'Destination Weddings',
+    title: 'Getting Married Near the Taj Mahal? Here\'s What Your Makeup Needs to Survive',
+    excerpt: 'Outdoor weddings near Agra\'s iconic monuments are stunning â€” but they demand a different approach to bridal makeup. Here\'s the complete guide.',
+    date: 'November 2024', readtime: '5 min read',
+    body: `
+      <h2>The Taj Mahal Wedding: Beauty Designed for Outdoor Agra Light</h2>
+      <p>Agra is one of the most sought-after destination wedding locations in North India, and it's not hard to understand why. The Taj Mahal, Agra Fort, Mehtab Bagh â€” the city's monuments provide a wedding backdrop that few places in the world can match. But outdoor weddings in Agra come with unique makeup challenges that indoor banquet brides simply don't face.</p>
+      <h3>The Agra Climate Challenge</h3>
+      <p>Agra experiences intense heat in summer (Mayâ€“July), beautiful but unpredictable weather in monsoon (Julyâ€“September), and near-perfect conditions in winter (Novemberâ€“February). Your makeup strategy must account for which season your wedding falls in â€” the products, finish, and setting techniques all change significantly.</p>
+      <h3>Summer & Outdoor Weddings: The Airbrush Advantage</h3>
+      <p>For summer destination weddings in Agra, we almost always recommend airbrush makeup. It is water-resistant, sweat-proof, and transfers minimally â€” meaning it handles the midday heat that breaks traditional foundation. We pair this with a long-wear translucent setting powder and a professional makeup setting spray for maximum longevity.</p>
+      <h3>Winter Taj Weddings: The Golden Light Formula</h3>
+      <p>Winter sunlight in Agra is extraordinary â€” golden, soft, and almost cinematic. For winter outdoor weddings, we formulate a luminous base with gold highlighter strategically placed to interact with the natural light. The result is a glow that looks almost supernatural in photographs near the Taj's white marble.</p>
+      <h3>Early Start Times Matter More Outside</h3>
+      <p>Outdoor venues near the Taj often require earlier ceremony start times â€” some as early as 6:30 or 7:00 AM for the best light and to beat tourist crowds. Our destination bridal service offers arrival from 5:00 AM, with the full studio kit delivered to your accommodation.</p>
+      <div class="blog-cta-box">
+        <h3>Destination Bridal Enquiry</h3>
+        <p>Planning an outdoor wedding in or around Agra? Let's talk destination bridal â€” we bring the studio to you, wherever you are.</p>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Enquire About Destination Service</a>
+      </div>
+    `
+  }
+];
+
+// â”€â”€ RENDER BLOG CARDS â”€â”€
+function renderBlogGrid() {
+  const icons = {'Bridal Trends':'ðŸ’','HD vs Airbrush':'âœ¨','Local Guide':'ðŸ—ºï¸','Skin & Beauty':'ðŸŒ¸','Career & Training':'ðŸŽ“','Wedding Guide':'ðŸ’','Tips & Advice':'ðŸ“‹','Destination Weddings':'ðŸ•Œ'};
+  const grid = document.getElementById('blogGrid');
+  grid.innerHTML = blogs.map(b => `
+    <div class="blog-card" onclick="showBlog(${b.id})">
+      <div class="blog-card-thumb">
+        <span class="blog-thumb-label">${icons[b.cat]||'âœ¦'} ${b.cat}</span>
+      </div>
+      <div style="padding:2rem;display:flex;flex-direction:column;flex:1;">
+        <span class="blog-card-cat">${b.cat}</span>
+        <h3 class="blog-card-title">${b.title}</h3>
+        <p class="blog-card-excerpt">${b.excerpt}</p>
+        <div class="blog-card-meta">
+          <span>${b.date} Â· ${b.readtime}</span>
+          <span class="blog-card-read">Read â†’</span>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function showBlog(id) {
+  const b = blogs.find(x => x.id === id);
+  document.getElementById('blog-list').style.display = 'none';
+  const single = document.getElementById('blog-single');
+  single.style.display = 'block';
+  single.innerHTML = `
+    <div class="blog-post">
+      <span class="blog-post-back" onclick="closeBlog()">â† Back to Journal</span>
+      <span class="blog-post-cat">${b.cat}</span>
+      <h1 class="blog-post-title">${b.title}</h1>
+      <div style="font-family:var(--font-body); font-size:0.65rem; letter-spacing:0.2em; color:var(--light-text); text-transform:uppercase; margin-bottom:3rem;">${b.date} Â· ${b.readtime}</div>
+      <div class="gold-divider" style="margin-bottom:3rem;"></div>
+      <div class="blog-post-body">${b.body}</div>
+    </div>
+  `;
+  window.scrollTo(0, 0);
+}
+
+function closeBlog() {
+  document.getElementById('blog-list').style.display = 'block';
+  document.getElementById('blog-single').style.display = 'none';
+}
+
+// â”€â”€ PAGE NAVIGATION â”€â”€
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  window.scrollTo(0, 0);
+  if (typeof closeMobileNav === 'function') closeMobileNav();
+  if (id === 'blog') {
+    const bl = document.getElementById('blog-list') || document.getElementById('blog-list-view');
+    const bs = document.getElementById('blog-single') || document.getElementById('blog-single-view');
+    if(bl) { bl.style.display = 'block'; } if(bs) { bs.style.display = 'none'; }
+  }
+  if(typeof triggerPageReveal==='function') triggerPageReveal();
+}
+
+// â”€â”€ NAV SCROLL â”€â”€
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// â”€â”€ MOBILE MENU â”€â”€
+function toggleMenu_old_REMOVED() {
+  const links = document.getElementById('navLinks');
+  links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+  links.style.position = 'fixed';
+  links.style.top = '60px';
+  links.style.left = '0';
+  links.style.right = '0';
+  links.style.background = 'rgba(26,20,16,0.98)';
+  links.style.flexDirection = 'column';
+  links.style.gap = '0';
+  links.style.padding = '1rem 0 2rem';
+  links.style.borderBottom = '0.5px solid rgba(201,169,110,0.15)';
+  links.querySelectorAll('a').forEach(a => {
+    a.style.display = 'block';
+    a.style.padding = '1rem 2rem';
+    a.style.borderBottom = '0.5px solid rgba(201,169,110,0.05)';
+  });
+}
+
+// â”€â”€ PORTFOLIO FILTERS â”€â”€
+document.addEventListener('click', e => {
+  if (e.target.classList.contains('filter-btn')) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  }
+});
+
+// â”€â”€ FORMS â”€â”€
+function submitApply(e) {
+  e.preventDefault();
+  document.getElementById('applyForm').style.display = 'none';
+  const s = document.getElementById('applySuccess');
+  s.style.display = 'block';
+  window.scrollTo(0, s.offsetTop - 100);
+}
+
+function submitContact(e) {
+  e.preventDefault();
+  document.getElementById('contactForm').style.display = 'none';
+  const s = document.getElementById('contactSuccess');
+  s.style.display = 'block';
+}
+
+// â”€â”€ INIT â”€â”€
+renderBlogGrid();
+</script>
+
+
+<!-- â”€â”€ MOBILE NAV OVERLAY â”€â”€ -->
+<div class="mobile-nav-overlay" id="mobileNav">
+  <button class="mobile-nav-close" onclick="closeMobileNav()">âœ•</button>
+  <a onclick="showPage('home');closeMobileNav()">Home</a>
+  <a onclick="showPage('services');closeMobileNav()">Services</a>
+  <a onclick="showPage('portfolio');closeMobileNav()">Portfolio</a>
+  <a onclick="showPage('blog');closeMobileNav()">Blog</a>
+  <a onclick="showPage('about');closeMobileNav()">About</a>
+  <a onclick="showPage('careers');closeMobileNav()">Careers</a>
+  <a onclick="showPage('contact');closeMobileNav()">Contact</a>
+</div>
+
+<!-- â”€â”€ CURSOR â”€â”€ -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<script>
+/* â”€â”€ CURSOR â”€â”€ */
+const dot=document.getElementById('cursorDot'),ring=document.getElementById('cursorRing');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+(function anim(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(anim);})();
+document.querySelectorAll('a,button').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{ring.style.width='48px';ring.style.height='48px';ring.style.borderColor='var(--gold)';});
+  el.addEventListener('mouseleave',()=>{ring.style.width='30px';ring.style.height='30px';ring.style.borderColor='rgba(201,169,110,.45)';});
+});
+
+/* â”€â”€ MOBILE NAV â”€â”€ */
+function openMobileNav(){document.getElementById('mobileNav').classList.add('open');}
+function closeMobileNav(){document.getElementById('mobileNav').classList.remove('open');}
+// Patch existing menu toggle
+const mt=document.querySelector('.menu-toggle');
+if(mt)mt.onclick=openMobileNav;
+
+/* â”€â”€ SCROLL REVEAL â”€â”€ */
+function checkReveal(){
+  document.querySelectorAll('.reveal:not(.in-view)').forEach(el=>{
+    const r=el.getBoundingClientRect();
+    if(r.top<window.innerHeight*.95&&r.bottom>0)el.classList.add('in-view');
+  });
+}
+window.addEventListener('scroll',checkReveal,{passive:true});
+// Also fire on page show
+function triggerPageReveal(){
+  // Force ALL .reveal elements on newly active page to become visible
+  // Use two passes: immediate + after paint settles
+  const run = () => {
+    const activePage = document.querySelector('.page.active');
+    if(!activePage) return;
+    activePage.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+    checkReveal();
+  };
+  run();
+  setTimeout(run, 80);
+  setTimeout(run, 250);
+}
+checkReveal();
+
+/* â”€â”€ STAT COUNTER â”€â”€ */
+function animStats(){
+  document.querySelectorAll('.stat-n[data-target]').forEach(el=>{
+    const t=+el.dataset.target,sfx=el.textContent.replace(/[0-9]/g,'');
+    let s=0,step=t/50;
+    const iv=setInterval(()=>{
+      s=Math.min(s+step,t);
+      el.textContent=Math.floor(s)+sfx;
+      if(s>=t)clearInterval(iv);
+    },30);
+  });
+}
+const sb=document.querySelector('.stats-bar,.stats-inner');
+if(sb){const io=new IntersectionObserver(([e])=>{if(e.isIntersecting){animStats();io.disconnect();}},{threshold:.4});io.observe(sb);}
+
+/* â”€â”€ PORTFOLIO FILTER â”€â”€ */
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('filter-btn')){
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    e.target.classList.add('active');
+    const f=e.target.dataset.filter||e.target.textContent.trim().toLowerCase();
+    document.querySelectorAll('.portfolio-item').forEach(item=>{
+      const show=f==='all'||item.dataset.cat===f;
+      item.style.opacity=show?'1':'0.15';
+      item.style.transform=show?'':'scale(0.96)';
+      item.style.transition='opacity .4s,transform .4s';
+    });
+  }
+});
+</script>
+
+
+
+
+
+<script>
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   GOOGLE SHEETS URL â€” paste your deployed Apps
+   Script Web App URL here after setup.
+   See GOOGLE_SHEETS_SETUP.md for instructions.
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+const SHEETS_URL = 'YOUR_APPS_SCRIPT_URL_HERE';
+
+/* â”€â”€ TAB SWITCHER â”€â”€ */
+function switchTab(type) {
+  document.getElementById('tab-internship').classList.toggle('active', type === 'internship');
+  document.getElementById('tab-interview').classList.toggle('active', type === 'interview');
+  document.getElementById('panel-internship').classList.toggle('active', type === 'internship');
+  document.getElementById('panel-interview').classList.toggle('active', type === 'interview');
+  clearStatus();
+  document.getElementById('apply-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+/* â”€â”€ PICK ROLE FROM JOB CARD â”€â”€ */
+function pickRole(tab, role) {
+  switchTab(tab);
+  if (tab === 'interview') {
+    setTimeout(() => {
+      var el = document.getElementById('interview-role');
+      if (el) {
+        for (var i = 0; i < el.options.length; i++) {
+          if (el.options[i].text.indexOf(role) > -1) { el.selectedIndex = i; break; }
+        }
+      }
+    }, 100);
+  }
+}
+
+/* â”€â”€ COLLECT FORM DATA â”€â”€ */
+function collectData(form, type) {
+  var data = {
+    applicationType: type === 'internship' ? 'Internship' : 'Job Interview',
+    submittedAt: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+  };
+  var els = form.querySelectorAll('[name]');
+  els.forEach(function(el) {
+    if (el.type === 'checkbox') {
+      if (!data[el.name]) data[el.name] = [];
+      if (el.checked) data[el.name].push(el.value);
+    } else {
+      data[el.name] = el.value || '';
+    }
+  });
+  Object.keys(data).forEach(function(k) {
+    if (Array.isArray(data[k])) data[k] = data[k].length ? data[k].join(', ') : 'None selected';
+  });
+  return data;
+}
+
+/* â”€â”€ STATUS HELPERS â”€â”€ */
+function showStatus(html, cls) {
+  var box = document.getElementById('status-box');
+  box.style.display = 'block';
+  box.innerHTML = '<div class="status-box ' + cls + '">' + html + '</div>';
+  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+function clearStatus() {
+  var box = document.getElementById('status-box');
+  box.style.display = 'none';
+  box.innerHTML = '';
+}
+
+/* â”€â”€ MAIN SUBMIT â”€â”€ */
+function handleSubmit(e, type) {
+  e.preventDefault();
+
+  var form = e.target;
+  var btn = document.getElementById('btn-' + type);
+  var data = collectData(form, type);
+  var label = type === 'internship' ? 'Internship' : 'Job Interview';
+
+  // Loading state
+  btn.disabled = true;
+  btn.classList.add('loading');
+  showStatus(
+    '<div class="status-spinner"></div><p>Sending your application to Vogue Makeovers...</p>',
+    'sending'
+  );
+
+  // Demo mode check
+  if (SHEETS_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {
+    setTimeout(function() {
+      btn.disabled = false;
+      btn.classList.remove('loading');
+      form.style.display = 'none';
+      showSuccess(data, label, true);
+    }, 1500);
+    return;
+  }
+
+  // Live submission
+  fetch(SHEETS_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  }).then(function() {
+    form.style.display = 'none';
+    showSuccess(data, label, false);
+  }).catch(function(err) {
+    showStatus(
+      '<p>Could not send automatically. Please WhatsApp your application: <a href="https://wa.me/918453220257" style="color:var(--gold);">+91 84532 20257</a></p>',
+      'error'
+    );
+    console.error(err);
+  }).finally(function() {
+    btn.disabled = false;
+    btn.classList.remove('loading');
+  });
+}
+
+/* â”€â”€ SUCCESS STATE â”€â”€ */
+function showSuccess(data, label, isDemo) {
+  var note = isDemo
+    ? 'noted in demo mode. Add your Google Sheets URL to receive live submissions.'
+    : 'sent directly to our studio team.';
+  showStatus(
+    '<h3>Application Received âœ¦</h3>' +
+    '<p>Thank you, <strong style="color:var(--cream);">' + (data.fullName || 'Candidate') + '</strong>! ' +
+    'Your <strong>' + label + '</strong> application has been ' + note + '</p>' +
+    '<p style="margin-top:.75rem;">We will reach out on <strong style="color:var(--cream);">' + (data.phone || 'your WhatsApp') + '</strong> within 3â€“5 working days.</p>' +
+    '<p style="margin-top:1.5rem;">' +
+    '<a href="https://wa.me/918453220257?text=Hi%2C+I+just+applied+for+the+' + encodeURIComponent(label) + '+at+Vogue+Makeovers+Agra." ' +
+    'target="_blank" style="display:inline-block;font-family:var(--fb);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border:.5px solid rgba(201,169,110,.4);padding:.65rem 1.4rem;text-decoration:none;">' +
+    'Follow Up on WhatsApp â†’</a></p>',
+    'success'
+  );
+}
+</script>
+</body>
+</html>
+
+
+
+
+
